@@ -1,0 +1,171 @@
+ship "Void Raider Heavy Destroyer"
+	sprite "ship/VRHD"
+		"frame time" 10
+		"rewind"
+		"delay" 15
+	attributes
+		category "Heavy Warship"
+		"cost" 10000000
+		"shields" 95000
+		"hull" 95000
+		"required crew" 120
+		"bunks" 950
+		"mass" 5575
+		"drag" 50
+		"heat dissipation" 10000
+		"fuel capacity" 1250
+		"cargo space" 100
+		"outfit space" 15750
+		"weapon capacity" 5000
+		"engine capacity" 2500
+	outfits
+		"Limit Breaker1"
+		"Darkmatter Anti-Missile Turret" 22
+		"Pug red Zapper" 8
+		"Vr Fuel Regenerator"
+		"Pug Red Zapper Turret" 12
+		"Red Jump Drive1"
+		"Vr Armour" 15
+		"Void Raider Flagship Engines" 2
+		"Superheavy Deavastator Energy Turret" 10
+		"Annihilator L Particle turret" 6
+		"X1111 Ion Reverse Thruster"
+		"X1111 Ion Reverse Thruster"
+		"Annihilator Particle turret" 12
+		"Vr Armour2"
+		"Small Typhoon Pod(fuel)" 4
+
+	gun -71.5 -91.5 "Pug red Zapper"
+	gun 71.5 -91.5 "Pug red Zapper"
+	gun -108.5 -22 "Pug red Zapper"
+	gun 108.5 -22 "Pug red Zapper"
+	gun -148.5 -46.5 "Pug red Zapper"
+	gun 148.5 -46.5 "Pug red Zapper"
+	gun -166.5 -140 "Pug red Zapper"
+	gun 166.5 -140 "Pug red Zapper"
+	gun -179.5 -133.5 "Small Typhoon Pod(fuel)"
+	gun 179.5 -133.5 "Small Typhoon Pod(fuel)"
+	gun -29 -360 "Small Typhoon Pod(fuel)"
+	gun 29 -360 "Small Typhoon Pod(fuel)"
+#main turrets
+	turret 0 -380.5 "Annihilator L Particle turret"
+	turret 0 -339.5 "Annihilator L Particle turret"
+	turret 0 -302 "Annihilator L Particle turret"
+	turret 0 -263.5 "Annihilator L Particle turret"
+	turret 0 -222.5 "Annihilator L Particle turret"
+	turret 0 -106.5 "Annihilator L Particle turret"
+#supports
+	turret -29 -200.5 "Pug Red Zapper Turret"
+	turret 29 -200.5 "Pug Red Zapper Turret"
+	turret -22.5 -145.5 "Pug Red Zapper Turret"
+	turret 22.5 -145.5 "Pug Red Zapper Turret"
+#supports2
+	turret -33 -76 "Pug Red Zapper Turret"
+	turret 33 -76 "Pug Red Zapper Turret"
+	turret -63.5 -1.5 "Pug Red Zapper Turret"
+	turret 63.5 -1.5 "Pug Red Zapper Turret"
+	turret -27.5 32 "Pug Red Zapper Turret"
+	turret 27.5 32 "Pug Red Zapper Turret"
+	turret -29 76 "Pug Red Zapper Turret"
+	turret 29 76 "Pug Red Zapper Turret"
+#big turrets
+	turret -30 115.5 "Superheavy Deavastator Energy Turret"
+	turret 30 115.5 "Superheavy Deavastator Energy Turret"
+	turret -27.5 167 "Superheavy Deavastator Energy Turret"
+	turret 27.5 167 "Superheavy Deavastator Energy Turret"
+	turret -33 229 "Superheavy Deavastator Energy Turret"
+	turret 33 229 "Superheavy Deavastator Energy Turret"
+	turret -29 272.5 "Superheavy Deavastator Energy Turret"
+	turret 29 272.5 "Superheavy Deavastator Energy Turret"
+	turret -25 311 "Superheavy Deavastator Energy Turret"
+	turret 25 311 "Superheavy Deavastator Energy Turret"
+#support
+	turret -80.5 247 "Annihilator Particle turret"
+	turret 80.5 247 "Annihilator Particle turret"
+	turret -96 186.5 "Annihilator Particle turret"
+	turret 96 186.5 "Annihilator Particle turret"
+	turret -101 114.5 "Annihilator Particle turret"
+	turret 101 114.5 "Annihilator Particle turret"
+	turret -155 87.5 "Annihilator Particle turret"
+	turret 155 87.5 "Annihilator Particle turret"
+	turret -184.5 23 "Annihilator Particle turret"
+	turret 184.5 23 "Annihilator Particle turret"
+	turret -179.5 -34.5 "Annihilator Particle turret"
+	turret 179.5 -34.5 "Annihilator Particle turret"
+#antimissiles
+	turret -174 -115.5 "Darkmatter Anti-Missile Turret"
+	turret 174 -115.5 "Darkmatter Anti-Missile Turret"
+	turret -223 140 "Darkmatter Anti-Missile Turret"
+	turret 223 140 "Darkmatter Anti-Missile Turret"
+	turret -178 166 "Darkmatter Anti-Missile Turret"
+	turret 178 166 "Darkmatter Anti-Missile Turret"
+	turret -160 214.5 "Darkmatter Anti-Missile Turret"
+	turret 160 214.5 "Darkmatter Anti-Missile Turret"
+	turret -96 275 "Darkmatter Anti-Missile Turret"
+	turret 96 275 "Darkmatter Anti-Missile Turret"
+	turret -93 320 "Darkmatter Anti-Missile Turret"
+	turret 93 320 "Darkmatter Anti-Missile Turret"
+	turret -81.5 355 "Darkmatter Anti-Missile Turret"
+	turret 81.5 355 "Darkmatter Anti-Missile Turret"
+	turret -81.5 380.5 "Darkmatter Anti-Missile Turret"
+	turret 81.5 380.5 "Darkmatter Anti-Missile Turret"
+	turret -36.5 342 "Darkmatter Anti-Missile Turret"
+	turret 36.5 342 "Darkmatter Anti-Missile Turret"
+	turret -11 365 "Darkmatter Anti-Missile Turret"
+	turret 11 365 "Darkmatter Anti-Missile Turret"
+	turret -16 -376.5 "Darkmatter Anti-Missile Turret"
+	turret 16 -376.5 "Darkmatter Anti-Missile Turret"
+#drone bays
+	bay "Drone" -124 149 
+	bay "Drone" 124 149 
+	bay "Drone" -124 149 
+	bay "Drone" 124 149 
+	bay "Drone" -124 149 
+	bay "Drone" 124 149 
+	bay "Drone" -124 149 
+	bay "Drone" 124 149 
+	bay "Drone" -123 184 
+	bay "Drone" 123 184 
+	bay "Drone" -123 184 
+	bay "Drone" 123 184 
+	bay "Drone" -123 184 
+	bay "Drone" 123 184 
+	bay "Drone" -123 184 
+	bay "Drone" 123 184 
+	engine -35.5 366.5 
+		zoom 2.5
+	engine 35.5 366.5 
+		zoom 2.5
+	engine -54.5 355 
+		zoom 2.0
+	engine 54.5 355 
+		zoom 2.0
+	engine -130.5 252 
+		zoom 1.5
+	engine 130.5 252 
+		zoom 1.5
+	engine -161.5 223.5 
+		zoom 1.25
+	engine 161.5 223.5 
+		zoom 1.25
+	"steering engine" -33 -328 
+		angle 90
+		left
+		zoom 0.25
+	"steering engine" 33 -328 
+		angle 270
+		right
+		zoom 0.25
+	"reverse engine" -128 11.5 
+		zoom 0.5
+	"reverse engine" 128 11.5 
+		zoom 0.5
+	explode "tiny explosion" 60
+	explode "small explosion" 26
+	explode "medium explosion" 47
+	explode "large explosion" 39
+	explode "huge explosion" 42
+	explode "nuke explosion" 2
+	"final explode" "nuke explosion" 2
+	"final explode" "nuke residue fast" 50
+	description 

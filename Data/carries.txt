@@ -1,0 +1,232 @@
+ship "Void Raider Drone"
+	sprite "ship/VRdrone"
+	attributes
+		category "Drone"
+		"cost" 60000
+		"hull" 300
+		"automaton" 1
+		"mass" 20
+		"drag" .5
+		"heat dissipation" .9
+		"outfit space" 6400
+		"weapon capacity" 1600
+		"engine capacity" 2200
+	weapon
+			"blast radius" 5000
+			"shield damage" 5000
+			"hull damage" 2500
+			"hit force" 75
+	outfits
+		
+		
+	gun -14 1
+	gun 14 1
+	gun -29.5 6.5
+	gun 29.5 6.5
+	gun -32.5 6.5
+	gun 32.5 6.5
+	gun -35.5 7
+	gun 35.5 7
+	engine 0 33
+	engine -8 33.5
+	engine 8 33.5
+	explode "tiny explosion" 15
+	description "The drones made by the Void Raiders are very intresting. Especially this model because it packs an astonashing 6 gunports in total on the very edges in the missile pods on its wings, with the two inner guns meant for primary weps. If the drone dies though it deals massive damage to anything near it."
+
+ship "Void Raider Fighter"
+	sprite "ship/VRfighter"
+		"frame time" 4
+		"rewind"
+		"delay" 12
+	attributes
+		category "Fighter"
+		"cost" 60000
+		"shields" 5000
+		"hull" 3400
+		"automaton" 1
+		"mass" 20
+		"drag" .75
+		"heat dissipation" .9
+		"outfit space" 5000
+		"weapon capacity" 1500
+		"engine capacity" 1500
+		"fuel capacity" 500
+	weapon
+		"blast radius" 10000
+		"shield damage" 50000
+		"hull damage" 25000
+		"hit force" 75
+	outfits
+		"Ichra-02 EF-Railgun" 2
+		"Small Typhoon Pod(fuel)" 2
+		"VR-1F Skylance" 1
+		"VR Hull Nanites" 
+		"Vr hull mk4" 1
+		"Vr shield mk4" 2
+		"Vr Armour" 5
+		"Vr Armour2"
+		"Void Raider Fighter Engines"
+		"Void raider EF Anti-Missile"
+
+	gun 0 -40.5 "VR-1F Skylance"
+	gun -15.5 -3 "Ichra-02 EF-Railgun"
+	gun 15.5 -3 "Ichra-02 EF-Railgun"
+	gun -10.5 6 "Small Typhoon Pod(fuel)"
+	gun 10.5 6 "Small Typhoon Pod(fuel)"
+	turret 0 8.5 "Void raider EF Anti-Missile"
+	engine -21.5 26.5
+		"zoom" .25
+	engine 21.5 26.5
+		"zoom" .25
+	engine -15.5 29
+		"zoom" .5
+	engine 15.5 29
+		"zoom" .5
+	engine -5 32
+		"zoom" .75
+	engine 5 32
+		"zoom" .75
+	explode "tiny explosion" 15
+	description "The fighters made by the Void Raiders are very intresting. This model only has 3 gun ports less than the drone but also has a turret mount to compensate for that, it also has more armor and shields while being the same mass. if it ends up being destroyed it will do more damage than the drone does."
+
+ship "Void Raider Fighter MK2"
+	sprite "ship/VRfighterMK2"
+		"frame time" 4
+		"rewind"
+		"delay" 12
+	attributes
+		category "Fighter"
+		"cost" 60000
+		"shields" 5000
+		"hull" 3400
+		"automaton" 1
+		"mass" 20
+		"drag" .75
+		"heat dissipation" .9
+		"outfit space" 5000
+		"weapon capacity" 1500
+		"engine capacity" 1500
+		"fuel capacity" 700
+	weapon
+		"blast radius" 10000
+		"shield damage" 50000
+		"hull damage" 25000
+		"hit force" 75
+	outfits
+		"Ichra-02 EF-Railgun" 2
+		"VR-1F Skylance" 3
+		"Void Raider Fighter Engines"
+		"VR Hull Nanites" 
+		"Vr hull mk4" 1
+		"Vr shield mk4" 2
+		"Vr Armour" 5
+		"Vr Armour2" 
+		"Small Typhoon Pod(fuel)" 2
+		"Void raider EF Anti-Missile" 2
+		
+	gun 0 -48.5 "VR-1F Skylance"
+	gun -15.5 -29.5 "VR-1F Skylance"
+	gun 15.5 -29.5 "VR-1F Skylance"
+	gun -12.5 -7.5 "Small Typhoon Pod(fuel)"
+	gun 12.5 -7.5 "Small Typhoon Pod(fuel)"
+	gun -23 9.5 "Ichra-02 EF-Railgun"
+	gun 23 9.5 "Ichra-02 EF-Railgun"
+	turret -12 19.5 "Void raider EF Anti-Missile"
+	turret 12 19.5 "Void raider EF Anti-Missile"
+	engine -22.5 28 
+		"zoom" .2875
+	engine 22.5 28 
+		"zoom" .2875
+	engine -10.5 32.5 
+		"zoom" .46
+	engine 10.5 32.5
+		"zoom" .46
+	engine -17 36 
+		"zoom" .575
+	engine 18 36
+		"zoom" .575
+	engine -2.5 45.5 
+		"zoom" .8625
+	engine 2.5 45.5 
+		"zoom" .8625
+
+	explode "tiny explosion" 15
+	description "The fighters made by the Void Raiders are very intresting. This model only has 3 gun ports less than the drone but also has a turret mount to compensate for that, it also has more armor and shields while being the same mass. if it ends up being destroyed it will do more damage than the drone does."
+
+ship "Void Raider Drone m3"
+	sprite "ship/Newdrone"
+	attributes
+		category "Drone"
+		"cost" 60000
+		"shields" 5000
+		"hull" 3400
+		"automaton" 1
+		"mass" 50
+		"drag" .5
+		"heat dissipation" .9
+		"outfit space" 5000
+		"weapon capacity" 1500
+		"engine capacity" 1500
+		"landing speed" 1
+	weapon
+		"blast radius" 10000
+		"shield damage" 50000
+		"hull damage" 25000
+		"hit force" 75
+	outfits
+		
+		
+	gun -9.5 1 
+	gun 9.5 1 
+	gun -14 4 
+	gun 14 4 
+	gun -11.5 6 
+	gun 11.5 6 
+	gun -6.5 7 
+	gun 6.5 7 
+	engine -4.5 33 
+		"zoom" .75
+	engine 4.5 33 
+		"zoom" .75
+	engine -9 40.5 
+		"zoom" .25
+	engine 9 40.5 
+		"zoom" .25
+
+	explode "tiny explosion" 15
+
+ship "Void Raider Drone tiny"
+	sprite "ship/Tiny"
+	attributes
+		category "Drone"
+		"cost" 60000
+		"shields" 5000
+		"hull" 3400
+		"automaton" 1
+		"mass" 50
+		"drag" .5
+		"heat dissipation" .9
+		"outfit space" 5000
+		"weapon capacity" 1500
+		"engine capacity" 1500
+		"fuel capacity" 100
+		"landing speed" 1
+	weapon
+		"blast radius" 10000
+		"shield damage" 500000
+		"hull damage" 25000
+		"hit force" 75
+	outfits
+		
+		
+
+	gun 4.5 0 
+"Ichra-02 EF-Railgun"
+	gun -4.5 0 
+"Ichra-02 EF-Railgun"
+	gun -7.5 1 
+"VR-1F Skylance"
+	gun 7.5 1 
+"VR-1F Skylance"
+
+	explode "tiny explosion" 15

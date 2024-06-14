@@ -1,0 +1,84 @@
+ship "Void Battleship"
+	sprite "ship/Battleship"
+	attributes
+		category "Battleship"
+		"cost" 10000000
+		"shields" 500000
+		"hull" 250000
+		"bunks" 1500
+		"Required crew" 0
+		"automaton" 1
+		"mass" 15000
+		"drag" 75
+		"heat dissipation" 10
+		"fuel capacity" 9000
+		"fuel generation" 5000
+		"cargo space" 1690
+		"outfit space" 1250000
+		"weapon capacity" 512000
+		"engine capacity" 5120000
+	outfits
+
+
+	gun -74 -720 
+	gun 74 -720 
+	gun 0 -619.5 
+	gun -64 -301 
+	gun 64 -301 
+	gun -159.5 120.5 
+	gun 159.5 120.5 
+	gun -184.5 110.5 
+	gun 184.5 110.5 
+	gun -209.5 103 
+	gun 209.5 103 
+	gun -232 95.5 
+	gun 232 95.5 
+	gun -249.5 72.5 
+	gun 249.5 72.5 
+	gun -300 175.5 
+	gun 300 175.5 
+	gun -320 165.5 
+	gun 320 165.5 
+	gun -340 163 
+	gun 340 163 
+	turret 0 -504 
+	turret 0 -431.5 
+	turret 0 -361 
+	turret 0 -286 
+	turret 0 -215.5 
+	turret 0 -138 
+	turret -76.5 -85.5 
+	turret 76.5 -85.5 
+	turret 0 -65 
+	turret -26.5 30 
+	turret 26.5 30 
+	turret -64 90.5 
+	turret 64 90.5 
+	turret -59 223.5 
+	turret 59 223.5 
+	turret -104 358.5 
+	turret 104 358.5 
+	turret -214.5 331 
+	turret 214.5 331 
+	turret -297.5 283.5 
+	turret 297.5 283.5 
+	turret -26.5 559.5 
+	turret 26.5 559.5 
+	engine -26.5 637 
+	engine 26.5 637 
+	engine -134 517 
+	engine 134 517 
+	engine -227 464 
+	engine 227 464 
+	engine -259.5 431.5 
+	engine 259.5 431.5 
+	engine -310 369 
+	engine 310 369 
+	explode "tiny explosion" 60
+	explode "small explosion" 26
+	explode "medium explosion" 47
+	explode "large explosion" 39
+	explode "huge explosion" 42
+	explode "nuke explosion" 2
+	"final explode" "nuke explosion" 2
+	"final explode" "nuke residue fast" 50

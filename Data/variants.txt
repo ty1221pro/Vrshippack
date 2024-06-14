@@ -1,0 +1,133 @@
+ship "Enemy Voidraider Dark energy ship"
+	sprite "ship/Vrdmd"
+	attributes
+		swizzle 5
+		"automaton" 1
+		"cost" 420000
+		"shields" 750000
+		"hull" 500000
+		"mass" 1000
+		"drag" 2
+		"cargo space" -20
+		"fuel capacity" 200
+	outfits
+		"VR Hull Nanites" 5
+		"Ichra-05 L-Railgun Turret" 28
+		"Annihilator Energy Cannon" 4
+		"Torpedo BombardierB" 6
+		"Ichra-04 E-Railgun" 4
+		"Limit Breaker1"
+		"Annihilator Energy Turret" 4
+		"Speed Stabilizer II" 19
+		"Superheavy Annihilator EC" 4
+		"VR Shield Timer" 3
+		"Void Raider Flagship Engines" 3
+		"Vr Armour" 10
+		"Vr shield mk4" 5
+		"Vr hull mk4" 5
+		"Vr Armour2" 5
+		"X11 Ion Afterburner" 2
+		"X1111 Ion Reverse Thruster" 2
+		"Void raider Anti-Missile" 12
+		"Superheavy Deavastator Energy Turret" 16
+
+	gun -194.5 -125.5 "Superheavy Annihilator EC"
+	gun 194.5 -125.5 "Superheavy Annihilator EC"
+	gun -234.5 -177 "Superheavy Annihilator EC"
+	gun 234.5 -177 "Superheavy Annihilator EC"
+	gun -537 -40 "Annihilator Energy Cannon"
+	gun 537 -40 "Annihilator Energy Cannon"
+	gun -623 28.5 "Annihilator Energy Cannon"
+	gun 623 28.5 "Annihilator Energy Cannon"
+	gun -343 857 "Torpedo BombardierB"
+	gun 343 857 "Torpedo BombardierB"
+	gun -388.5 828.5 "Torpedo BombardierB"
+	gun 388.5 828.5 "Torpedo BombardierB"
+	gun -428.5 811.5 "Torpedo BombardierB"
+	gun 428.5 811.5 "Torpedo BombardierB"
+	gun -474.5 794.5 "Ichra-04 E-Railgun"
+	gun 474.5 794.5 "Ichra-04 E-Railgun"
+	gun -57 -1394.5 "Ichra-04 E-Railgun"
+	gun 57 -1394.5 "Ichra-04 E-Railgun"
+	turret 0 -1480 "Superheavy Deavastator Energy Turret"
+	turret 0 -1337 "Superheavy Deavastator Energy Turret"
+	turret 0 -1165.5 "Superheavy Deavastator Energy Turret"
+	turret 0 -1005.5 "Superheavy Deavastator Energy Turret"
+	turret 0 -834.5 "Superheavy Deavastator Energy Turret"
+	turret 0 -651.5 "Superheavy Deavastator Energy Turret"
+	turret 0 -491.5 "Superheavy Deavastator Energy Turret"
+	turret 0 -320 "Superheavy Deavastator Energy Turret"
+	turret -57 -240 "Void raider Anti-Missile"
+	turret 57 -240 "Void raider Anti-Missile"
+	turret 0 -148.5 "Superheavy Deavastator Energy Turret"
+	turret -63 -68.5 "Ichra-05 L-Railgun Turret"
+	turret 63 -68.5 "Ichra-05 L-Railgun Turret"
+	turret 0 23 "Superheavy Deavastator Energy Turret"
+	turret -63 108.5 "Ichra-05 L-Railgun Turret"
+	turret 63 108.5 "Ichra-05 L-Railgun Turret"
+	turret 0 194.5 "Superheavy Deavastator Energy Turret"
+	turret -63 285.5 "Ichra-05 L-Railgun Turret"
+	turret 63 285.5 "Ichra-05 L-Railgun Turret"
+	turret 0 365.5 "Superheavy Deavastator Energy Turret"
+	turret -80 434.5 "Annihilator Energy Turret"
+	turret 80 434.5 "Annihilator Energy Turret"
+	turret 0 543 "Superheavy Deavastator Energy Turret"
+	turret -97 617 "Annihilator Energy Turret"
+	turret 97 617 "Annihilator Energy Turret"
+	turret 0 708.5 "Superheavy Deavastator Energy Turret"
+	turret -131.5 783 "Ichra-05 L-Railgun Turret"
+	turret 131.5 783 "Ichra-05 L-Railgun Turret"
+	turret -245.5 891.5 "Ichra-05 L-Railgun Turret"
+	turret 245.5 891.5 "Ichra-05 L-Railgun Turret"
+	turret 0 1051.5 "Superheavy Deavastator Energy Turret"
+	turret -303 1091.5 "Ichra-05 L-Railgun Turret"
+	turret 303 1091.5 "Ichra-05 L-Railgun Turret"
+	turret -560 851.5 "Ichra-05 L-Railgun Turret"
+	turret 560 851.5 "Ichra-05 L-Railgun Turret"
+	turret -565.5 1223 "Ichra-05 L-Railgun Turret"
+	turret 565.5 1223 "Ichra-05 L-Railgun Turret"
+	turret -223 1377 "Ichra-05 L-Railgun Turret"
+	turret 223 1377 "Ichra-05 L-Railgun Turret"
+	turret -51.5 1611.5 "Ichra-05 L-Railgun Turret"
+	turret 51.5 1611.5 "Ichra-05 L-Railgun Turret"
+	turret 0 1400 "Superheavy Deavastator Energy Turret"
+	turret 588.5 1548.5 "Void raider Anti-Missile"
+	turret -588.5 1548.5 "Void raider Anti-Missile"
+	engine 85.5 1777 
+	engine -85.5 1777 
+	engine 320 1503 
+	engine -320 1503 
+	engine 634.5 1611.5 
+	engine -634.5 1611.5 
+	"steering engine" 394.5 1503 
+		right
+	"steering engine" -377 1503 
+		left
+	"steering engine" 85.5 1783 
+		right
+	"steering engine" -74.5 1783 
+		left
+	"steering engine" -628.5 1600 
+		left
+	"steering engine" 645.5 1628.5 
+		right
+	"reverse engine" 103 -468.5 
+	"reverse engine" -103 -468.5 
+	"reverse engine" 320 754.5 
+	"reverse engine" -320 754.5 
+	turret -125.5 1188.5 "Void raider Anti-Missile"
+	turret 125.5 1188.5 "Void raider Anti-Missile"
+	turret -188.5 1068.5 "Ichra-05 L-Railgun Turret"
+	turret 188.5 1068.5 "Ichra-05 L-Railgun Turret"
+	turret -257 663 "Ichra-05 L-Railgun Turret"
+	turret 257 663 "Ichra-05 L-Railgun Turret"
+	turret -531.5 388.5 "Ichra-05 L-Railgun Turret"
+	turret 531.5 388.5 "Ichra-05 L-Railgun Turret"
+	turret -623 588.5 "Ichra-05 L-Railgun Turret"
+	turret 623 588.5 "Ichra-05 L-Railgun Turret"
+	turret -23 -1440 "Void raider Anti-Missile"
+	turret 23 -1440 "Void raider Anti-Missile"
+	turret -40 -1085.5 "Void raider Anti-Missile"
+	turret 40 -1085.5 "Void raider Anti-Missile"
+	turret -34.5 -925.5 "Void raider Anti-Missile"
+	turret 34.5 -925.5 "Void raider Anti-Missile"

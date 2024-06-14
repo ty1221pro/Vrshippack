@@ -1,0 +1,339 @@
+ship "Void A-F Battleship"
+	sprite "ship/1252"
+		"scale" 0.5
+	attributes
+		category "Battleship"
+		"cost" 10000000
+		"shields" 250000
+		"hull" 250000
+		"bunks" 0
+		"Required crew" 0
+		"automaton" 1
+		"mass" 15000
+		"drag" 95
+		"heat dissipation" 10
+		"fuel capacity" 2500
+		"cargo space" 1690
+		"outfit space" 1250000
+		"weapon capacity" 512000
+		"engine capacity" 5120000
+	outfits
+		"Vr hull mk4"10
+		"Vr shield mk4" 10
+		"Vr Armour" 15
+		"Void Raider Flagship Engines" 2
+		"X1111 Ion Reverse Thruster"
+		"Vr Armour2" 2
+		"Ichra-02 EF-Railgun" 16
+		"Void raider EF Anti-Missile" 18
+		"Annihilator Fuel Particle turret" 16
+		"SH-F Deavastator Energy Turret" 14
+		"Annihilator LF Particle turret" 12
+		"Typhoon Pod(fuel)" 18
+		
+		
+		
+		
+		
+		
+		
+		
+	gun -92.75 -5.25 "Ichra-02 EF-Railgun"
+	gun 92.75 -5.25 "Ichra-02 EF-Railgun"
+	gun -194.75 23.25 "Ichra-02 EF-Railgun"
+	gun 194.75 23.25 "Ichra-02 EF-Railgun"
+	gun -226.75 5.25 "Ichra-02 EF-Railgun"
+	gun 226.75 5.25 "Ichra-02 EF-Railgun"
+	gun -110.75 71.5 "Ichra-02 EF-Railgun"
+	gun 110.75 71.5 "Ichra-02 EF-Railgun"
+	gun -126.75 60.75 "Ichra-02 EF-Railgun"
+	gun 126.75 60.75 "Ichra-02 EF-Railgun"
+	gun -144.75 55.25 "Ichra-02 EF-Railgun"
+	gun 144.75 55.25 "Ichra-02 EF-Railgun"
+	gun -159 50 "Ichra-02 EF-Railgun"
+	gun 159 50 "Ichra-02 EF-Railgun"
+	gun -171.5 39.25 "Ichra-02 EF-Railgun"
+	gun 171.5 39.25 "Ichra-02 EF-Railgun"
+	gun 123.25 180.25 "Typhoon Pod(fuel)"
+	gun -123.25 180.25 "Typhoon Pod(fuel)"
+	gun 116 160.75 "Typhoon Pod(fuel)"
+	gun -116 160.75 "Typhoon Pod(fuel)"
+	gun 134 153.5 "Typhoon Pod(fuel)"
+	gun -134 153.5 "Typhoon Pod(fuel)"
+	gun 141 169.75 "Typhoon Pod(fuel)"
+	gun -141 169.75 "Typhoon Pod(fuel)"
+	gun 148.25 148.25 "Typhoon Pod(fuel)"
+	gun -148.25 148.25 "Typhoon Pod(fuel)"
+	gun 155.25 164.25 "Typhoon Pod(fuel)"
+	gun -155.25 164.25 "Typhoon Pod(fuel)"
+	gun 162.5 137.5 "Typhoon Pod(fuel)"
+	gun -162.5 137.5 "Typhoon Pod(fuel)"
+	gun 169.75 153.5 "Typhoon Pod(fuel)"
+	gun -169.75 153.5 "Typhoon Pod(fuel)"
+	gun 176.75 130.25 "Typhoon Pod(fuel)"
+	gun -176.75 130.25 "Typhoon Pod(fuel)"
+	turret -17.75 -450 "Void raider EF Anti-Missile"
+	turret 17.75 -450 "Void raider EF Anti-Missile"
+	turret 0 -417.75 "SH-F Deavastator Energy Turret"
+	turret 0 -366 "SH-F Deavastator Energy Turret"
+	turret -17.75 -341 "Annihilator Fuel Particle turret"
+	turret 17.75 -341 "Annihilator Fuel Particle turret"
+	turret 0 -312.5 "SH-F Deavastator Energy Turret"
+	turret -25 -285.75 "Annihilator Fuel Particle turret"
+	turret 25 -285.75 "Annihilator Fuel Particle turret"
+	turret 0 -257.25 "SH-F Deavastator Energy Turret"
+	turret -23.25 -228.5 Annihilator LF Particle turret"
+	turret 23.25 -228.5 Annihilator LF Particle turret"
+	turret 0 -205.25 "SH-F Deavastator Energy Turret"
+	turret -19.75 -178.5 Annihilator LF Particle turret"
+	turret 19.75 -178.5 Annihilator LF Particle turret"
+	turret 0 -151.75 "SH-F Deavastator Energy Turret"
+	turret -32.25 -123.25 Annihilator LF Particle turret"
+	turret 32.25 -123.25 Annihilator LF Particle turret"
+	turret 0 -98.25 "SH-F Deavastator Energy Turret"
+	turret -32.25 -66 "Annihilator Fuel Particle turret"
+	turret 32.25 -66 "Annihilator Fuel Particle turret"
+	turret 0 -39.25 "SH-F Deavastator Energy Turret"
+	turret -30.25 -12.5 Annihilator LF Particle turret"
+	turret 30.25 -12.5 Annihilator LF Particle turret"
+	turret -51.75 26.75 "Annihilator Fuel Particle turret"
+	turret 51.75 26.75 "Annihilator Fuel Particle turret"
+	turret -62.5 73.25 "Annihilator Fuel Particle turret"
+	turret 62.5 73.25 "Annihilator Fuel Particle turret"
+	turret 0 64.25 "SH-F Deavastator Energy Turret"
+	turret -23.25 98.25 Annihilator LF Particle turret"
+	turret 23.25 98.25 Annihilator LF Particle turret"
+	turret 0 128.5 "SH-F Deavastator Energy Turret"
+	turret -42.75 171.5 "Annihilator Fuel Particle turret"
+	turret 42.75 171.5 "Annihilator Fuel Particle turret"
+	turret -91 242.75 "Annihilator Fuel Particle turret"
+	turret 91 242.75 "Annihilator Fuel Particle turret"
+	turret 0 262.5 "SH-F Deavastator Energy Turret"
+	turret -50 310.75 "Annihilator Fuel Particle turret"
+	turret 50 310.75 "Annihilator Fuel Particle turret"
+	turret 0 341 "SH-F Deavastator Energy Turret"
+	turret -82.25 371.5 Annihilator LF Particle turret"
+	turret 82.25 371.5 Annihilator LF Particle turret"
+	turret 0 434 "SH-F Deavastator Energy Turret"
+	turret 0 489.25 "SH-F Deavastator Energy Turret"
+	turret -137.5 250 "Void raider EF Anti-Missile"
+	turret 137.5 250 "Void raider EF Anti-Missile"
+	turret -187.5 216 "Void raider EF Anti-Missile"
+	turret 187.5 216 "Void raider EF Anti-Missile"
+	turret -223.25 176.75 "Void raider EF Anti-Missile"
+	turret 223.25 176.75 "Void raider EF Anti-Missile"
+	turret -105.25 580.25 "Void raider EF Anti-Missile"
+	turret 105.25 580.25 "Void raider EF Anti-Missile"
+	turret -109 517.75 "Void raider EF Anti-Missile"
+	turret 109 517.75 "Void raider EF Anti-Missile"
+	turret -98.25 475 "Void raider EF Anti-Missile"
+	turret 98.25 475 "Void raider EF Anti-Missile"
+	turret -16 557.25 "Void raider EF Anti-Missile"
+	turret 16 557.25 "Void raider EF Anti-Missile"
+	turret -57.25 -125 "Void raider EF Anti-Missile"
+	turret 57.25 -125 "Void raider EF Anti-Missile"
+	engine 0 542.75 
+		"zoom" 3.5
+	engine -37.5 516 
+		"zoom" 2.5
+	engine 37.5 516 
+		"zoom" 2.5
+	engine -75 475 
+		"zoom" 1.0
+	engine 75 475 
+		"zoom" 1.0
+	"reverse engine" 48.25 -117.75 
+	"reverse engine" -48.25 -117.75 
+	explode "tiny explosion" 60
+	explode "small explosion" 26
+	explode "medium explosion" 47
+	explode "large explosion" 39
+	explode "huge explosion" 42
+	explode "nuke explosion" 2
+	"final explode" "nuke explosion" 2
+	"final explode" "nuke residue fast" 50
+	
+ship "Void fast Battleship"
+	sprite "ship/125"
+		"scale" 0.5
+	attributes
+		category "Heavy Warship"
+		"cost" 10000000
+		"shields" 100000
+		"hull" 150000
+		"bunks" 750
+		"Required crew" 250
+		"mass" 15000
+		"drag" 95
+		"heat dissipation" 10
+		"fuel capacity" 2500
+		"cargo space" 1690
+		"outfit space" 1250000
+		"weapon capacity" 512000
+		"engine capacity" 5120000
+	outfits
+		"Vr hull mk4" 15
+		"Vr shield mk4" 15
+		"Vr Armour" 15
+		"Void Raider Flagship Engines" 2
+		"X1111 Ion Reverse Thruster" 2
+		"Vr Armour2" 2
+		"Ichra-04 E-Railgun" 16
+		"Void raider Anti-Missile" 18
+		"Annihilator Particle turret" 16
+		"Superheavy Deavastator Energy Turret" 14
+		"Annihilator L Particle turret" 12
+		"Typhoon Pod(fuel)" 18
+		
+		
+		
+		
+		
+		
+		
+		
+
+	gun -92.75 -5.25 "Ichra-04 E-Railgun"
+	gun 92.75 -5.25 "Ichra-04 E-Railgun"
+	gun -194.75 23.25 "Ichra-04 E-Railgun"
+	gun 194.75 23.25 "Ichra-04 E-Railgun"
+	gun -226.75 5.25 "Ichra-04 E-Railgun"
+	gun 226.75 5.25 "Ichra-04 E-Railgun"
+	gun -110.75 71.5 "Ichra-04 E-Railgun"
+	gun 110.75 71.5 "Ichra-04 E-Railgun"
+	gun -126.75 60.75 "Ichra-04 E-Railgun"
+	gun 126.75 60.75 "Ichra-04 E-Railgun"
+	gun -144.75 55.25 "Ichra-04 E-Railgun"
+	gun 144.75 55.25 "Ichra-04 E-Railgun"
+	gun -159 50 "Ichra-04 E-Railgun"
+	gun 159 50 "Ichra-04 E-Railgun"
+	gun -171.5 39.25 "Ichra-04 E-Railgun"
+	gun 171.5 39.25 "Ichra-04 E-Railgun"
+	gun 123.25 180.25 "Typhoon Pod(fuel)"
+	gun -123.25 180.25 "Typhoon Pod(fuel)"
+	gun 116 160.75 "Typhoon Pod(fuel)"
+	gun -116 160.75 "Typhoon Pod(fuel)"
+	gun 134 153.5 "Typhoon Pod(fuel)"
+	gun -134 153.5 "Typhoon Pod(fuel)"
+	gun 141 169.75 "Typhoon Pod(fuel)"
+	gun -141 169.75 "Typhoon Pod(fuel)"
+	gun 148.25 148.25 "Typhoon Pod(fuel)"
+	gun -148.25 148.25 "Typhoon Pod(fuel)"
+	gun 155.25 164.25 "Typhoon Pod(fuel)"
+	gun -155.25 164.25 "Typhoon Pod(fuel)"
+	gun 162.5 137.5 "Typhoon Pod(fuel)"
+	gun -162.5 137.5 "Typhoon Pod(fuel)"
+	gun 169.75 153.5 "Typhoon Pod(fuel)"
+	gun -169.75 153.5 "Typhoon Pod(fuel)"
+	gun 176.75 130.25 "Typhoon Pod(fuel)"
+	gun -176.75 130.25 "Typhoon Pod(fuel)"
+	turret -17.75 -450 "Void raider Anti-Missile"
+	turret 17.75 -450 "Void raider Anti-Missile"
+	turret 0 -417.75 "Superheavy Deavastator Energy Turret"
+	turret 0 -366 "Superheavy Deavastator Energy Turret"
+	turret -17.75 -341 "Annihilator Particle turret"
+	turret 17.75 -341 "Annihilator Particle turret"
+	turret 0 -312.5 "Superheavy Deavastator Energy Turret"
+	turret -25 -285.75 "Annihilator Particle turret"
+	turret 25 -285.75 "Annihilator Particle turret"
+	turret 0 -257.25 "Superheavy Deavastator Energy Turret"
+	turret -23.25 -228.5 "Annihilator L Particle turret"
+	turret 23.25 -228.5 "Annihilator L Particle turret"
+	turret 0 -205.25 "Superheavy Deavastator Energy Turret"
+	turret -19.75 -178.5 "Annihilator L Particle turret"
+	turret 19.75 -178.5 "Annihilator L Particle turret"
+	turret 0 -151.75 "Superheavy Deavastator Energy Turret"
+	turret -32.25 -123.25 "Annihilator L Particle turret"
+	turret 32.25 -123.25 "Annihilator L Particle turret"
+	turret 0 -98.25 "Superheavy Deavastator Energy Turret"
+	turret -32.25 -66 "Annihilator Particle turret"
+	turret 32.25 -66 "Annihilator Particle turret"
+	turret 0 -39.25 "Superheavy Deavastator Energy Turret"
+	turret -30.25 -12.5 "Annihilator L Particle turret"
+	turret 30.25 -12.5 "Annihilator L Particle turret"
+	turret -51.75 26.75 "Annihilator Particle turret"
+	turret 51.75 26.75 "Annihilator Particle turret"
+	turret -62.5 73.25 "Annihilator Particle turret"
+	turret 62.5 73.25 "Annihilator Particle turret"
+	turret 0 64.25 "Superheavy Deavastator Energy Turret"
+	turret -23.25 98.25 "Annihilator L Particle turret"
+	turret 23.25 98.25 "Annihilator L Particle turret"
+	turret 0 128.5 "Superheavy Deavastator Energy Turret"
+	turret -42.75 171.5 "Annihilator Particle turret"
+	turret 42.75 171.5 "Annihilator Particle turret"
+	turret -91 242.75 "Annihilator Particle turret"
+	turret 91 242.75 "Annihilator Particle turret"
+	turret 0 262.5 "Superheavy Deavastator Energy Turret"
+	turret -50 310.75 "Annihilator Particle turret"
+	turret 50 310.75 "Annihilator Particle turret"
+	turret 0 341 "Superheavy Deavastator Energy Turret"
+	turret -82.25 371.5 "Annihilator L Particle turret"
+	turret 82.25 371.5 "Annihilator L Particle turret"
+	turret 0 434 "Superheavy Deavastator Energy Turret"
+	turret 0 489.25 "Superheavy Deavastator Energy Turret"
+	turret -137.5 250 "Void raider Anti-Missile"
+	turret 137.5 250 "Void raider Anti-Missile"
+	turret -187.5 216 "Void raider Anti-Missile"
+	turret 187.5 216 "Void raider Anti-Missile"
+	turret -223.25 176.75 "Void raider Anti-Missile"
+	turret 223.25 176.75 "Void raider Anti-Missile"
+	turret -105.25 580.25 "Void raider Anti-Missile"
+	turret 105.25 580.25 "Void raider Anti-Missile"
+	turret -109 517.75 "Void raider Anti-Missile"
+	turret 109 517.75 "Void raider Anti-Missile"
+	turret -98.25 475 "Void raider Anti-Missile"
+	turret 98.25 475 "Void raider Anti-Missile"
+	turret -16 557.25 "Void raider Anti-Missile"
+	turret 16 557.25 "Void raider Anti-Missile"
+	turret -57.25 -125 "Void raider Anti-Missile"
+	turret 57.25 -125 "Void raider Anti-Missile"
+#engines
+	engine 0 542.75 
+		"zoom" 3.5
+	engine -37.5 516 
+		"zoom" 2.5
+	engine 37.5 516 
+		"zoom" 2.5
+	engine -75 475 
+		"zoom" 1.0
+	engine 75 475 
+		"zoom" 1.0
+	"reverse engine" 48.25 -117.75 
+	"reverse engine" -48.25 -117.75 
+#Bays
+	bay "Fighter" -51.75 -91 
+	bay "Fighter" 51.75 -91 
+	bay "Drone" -51.75 -91 
+	bay "Drone" 51.75 -91 
+	bay "Fighter" -51.75 -66 
+	bay "Fighter" 51.75 -66 
+	bay "Fighter" -55.25 -34 
+	bay "Fighter" 55.25 -34 
+	bay "Fighter" -51.75 12.5 
+	bay "Fighter" 51.75 12.5 
+	bay "Fighter" -51.75 66 
+	bay "Fighter" 51.75 66 
+	bay "Fighter" -57.25 105.25 
+	bay "Fighter" 57.25 105.25 
+	bay "Fighter" -80.25 121.5 
+	bay "Fighter" 80.25 121.5 
+	bay "Fighter" -142.75 232.25 
+	bay "Fighter" 142.75 232.25 
+	bay "Fighter" -167.75 221.5 
+	bay "Fighter" 167.75 221.5 
+	bay "Fighter" -192.75 207.25 
+	bay "Fighter" 192.75 207.25 
+	bay "Fighter" -210.75 191 
+	bay "Fighter" 210.75 191 
+	bay "Fighter" -230.25 141 
+	bay "Fighter" 230.25 141
+
+
+	explode "tiny explosion" 60
+	explode "small explosion" 26
+	explode "medium explosion" 47
+	explode "large explosion" 39
+	explode "huge explosion" 42
+	explode "nuke explosion" 2
+	"final explode" "nuke explosion" 2
+	"final explode" "nuke residue fast" 50

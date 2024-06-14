@@ -1,0 +1,117 @@
+outfit "PilKam2-776 Arbalest Turret"
+	category "Turrets"
+	cost 63200000
+	thumbnail "outfit/mgf pilkam turret"
+	#"mass" 568000
+	"mass" 250
+	"outfit space" 250
+	"weapon capacity" 250
+	"turret mounts" -1
+	"required crew" 5
+	"bunk" 25
+	"shield generation" 6
+	"hull repair" 4
+	weapon
+		sprite "projectile/pilkam charge"
+			"start frame" 0
+			"frame rate" 15
+			"no repeat"
+		"hardpoint sprite" "hardpoint/mgf pilkam2 turret hp"
+			"frame time" 10
+			"rewind"
+			"delay" 25
+		"hardpoint offset" 10.
+		sound "typhoon"
+		#"live effect" "spearfish smoke" 500
+		#"live effect" "spearfish smoke" 500
+		#"hit effect" "nuke explosion"
+		"hit effect" "volhex impact 1" 2
+		"hit effect" "volhex impact 2" 5
+		"die effect" "pilkam fire"
+		"inaccuracy" .1
+		"turret turn" .5
+		"velocity" 0
+		"velocity override" 42
+		"lifetime" 0
+		"submunition" "PilKam Activated"
+		"reload" 360
+		"firing energy" 598
+		"firing heat" 770
+	description "A large sniper turret that charges for a second before firing. Once fired the projectile deals massive amount of damage."
+	
+outfit "PilKam Activated"
+	weapon
+		sprite "projectile/pilkam charge"
+			"start frame" 4
+			"no repeat"
+			"frame rate" 0
+		"hit effect" "nuke explosion"
+		"hit effect" "volhex impact 1" 2
+		"hit effect" "volhex impact 2" 5
+		"fire effect" "pilkam fire"
+		"velocity" 45
+		"acceleration" 10
+		"drag" 0.2222222222
+		"turn" 0.75
+		"homing" 1
+		"tracking" 50
+		"lifetime" 133.3333333333
+		"shield damage" 5000
+		"hull damage" 5000
+	
+effect "pilkam fire"
+	sprite "effect/pilkam fire"
+		"frame rate" 15
+		"no repeat"
+	"lifetime" 50
+	"velocity scale" .1
+	"random angle" 10
+	
+effect "silchu smoke"
+	sprite "effect/silchu smoke"
+		"frame rate" 6
+		"no repeat"
+	"lifetime" 20
+	"velocity scale" .3
+	"random velocity" 2
+	"random angle" 10
+	"random spin" 30
+	effect "volhex impact 1"
+	sprite "effect/explosion/huge"
+		"no repeat"
+		"frame rate" 13
+	sound "explosion huge"
+	"lifetime" 36
+	"random lifetime" 10
+	"random angle" 36
+	"random frame rate" 5
+	"random spin" 5
+	"random velocity" 5
+	"velocity scale" .85
+	
+effect "volhex impact 2"
+	sprite "effect/explosion/medium"
+		"no repeat"
+		"frame rate" 14
+	sound "explosion huge"
+	"lifetime" 36
+	"random lifetime" 10
+	"random angle" 36
+	"random frame rate" 5
+	"random spin" 5
+	"random velocity" 8
+	"velocity scale" .85
+	
+effect "volhex impact 1"
+	sprite "effect/explosion/huge"
+		"no repeat"
+		"frame rate" 13
+	sound "explosion huge"
+	"lifetime" 36
+	"random lifetime" 10
+	"random angle" 36
+	"random frame rate" 5
+	"random spin" 5
+	"random velocity" 5
+	"velocity scale" .85
+	

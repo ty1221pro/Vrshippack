@@ -1,0 +1,92 @@
+mission "Bounty Hunting Massive"
+	name "Destroy Massive Marauder Fleet"
+	description "An armada of Marauder vessels consisting of at least ten heavy warships and dozens of smaller craft, has been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 5
+	source
+		near Sol 100000
+	npc kill
+		government "Bounty"
+		personality heroic unconstrained staying nemesis target
+		system
+			distance 1 2
+		fleet "Marauder fleet XX" 10
+		fleet "Super battleship trio"
+		fleet "Large Core Pirates" 9
+		fleet "Large Northern Pirates" 8
+		fleet "Large Southern Pirates" 9
+		dialog phrase "generic fleet bounty hunting payment dialog"
+	on complete
+		payment 250000000
+		dialog phrase "generic fleet bounty hunting payment dialog"
+
+mission "Bounty Hunting Gargantuan"
+	name "Destroy Gargantuan Marauder Fleet"
+	description "An armada of Marauder vessels consisting of at least ten heavy warships and dozens of smaller craft, has been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 7
+	source
+		near Sol 100000
+	npc kill
+		government "Bounty"
+		personality heroic unconstrained staying nemesis target
+		system
+			distance 1 2
+		fleet "Marauder fleet XX" 12
+		fleet "Super battleship trio" 3
+		fleet "Large Core Pirates" 11
+		fleet "Large Northern Pirates" 10
+		fleet "Large Southern Pirates" 11
+		dialog phrase "generic fleet bounty hunting payment dialog"
+	on complete
+		payment 2500000000
+		dialog phrase "generic fleet bounty hunting payment dialog"
+
+mission "Bounty Hunting huge"
+	name "Destroy Huge Marauder Fleet"
+	description "An armada of Marauder vessels consisting of at least ten heavy warships and dozens of smaller craft, has been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 5
+	source
+		near Sol 100000
+	npc kill
+		government "Bounty"
+		personality heroic unconstrained staying nemesis target
+		system
+			distance 1 2
+		fleet "Marauder fleet XX" 12
+		fleet "Large Core Pirates" 12
+		fleet "Large Northern Pirates" 12
+		fleet "Large Southern Pirates" 12
+		dialog phrase "generic fleet bounty hunting payment dialog"
+	on complete
+		payment 250000000
+		dialog phrase "generic fleet bounty hunting payment dialog"
+eet bounty hunting payment dialog"
+
+mission "Rouge void raider ship"
+	name "Destroy powerful Alien ship"
+	description "An Unknown extremely dangerous alien ship has been pulverising everything near the <system> system. Destroy the ship and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 9
+	source
+		near Sol 100000
+	npc kill
+		government "Bounty"
+		personality unconstrained staying nemesis target
+		system
+			distance 1 2
+		fleet "Rogue Void raider Dark energy ship" 1
+		dialog phrase "generic fleet bounty hunting payment dialog"
+	on complete
+		payment 250000000
+		dialog phrase "generic fleet bounty hunting payment dialog"
+eet bounty hunting payment dialog"

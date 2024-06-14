@@ -1,0 +1,907 @@
+ship "SB-02 Claymore Class"
+	sprite "ship/mgf navy superbattleship1"
+	attributes
+		category "Superheavy"
+		"cost" 1288700000
+		"shields" 358800
+		"hull" 324000
+		"hull repair rate" .7
+		"required crew" 1450
+		"bunks" 2652
+		"mass" 41985
+		"drag" 434
+		"heat dissipation" .45
+		"fuel capacity" 2800
+		"cargo space" 850
+		"outfit space" 22452
+		"weapon capacity" 14556
+		"engine capacity" 985
+		"vertical launching support" 12
+		"spinal mount" 2
+		"force protection" 100
+		"spearfish capacity" 240
+		"repair delay" 160
+		"ramscoop" 30
+		"heat capacity" 120000
+		"active cooling" 250
+		"ion protection" 2
+		"scramble protection" 2
+		"landing speed" 0.75
+		weapon
+			"blast radius" 3000
+			"shield damage" 8000
+			"hull damage" 5500
+			"hit force" 4500
+	outfits
+		"Superheavy Annihilator EC" 2
+		"VR-1F Skylance" 8
+		"Annihilator Energy Cannon" 4
+		
+		"Annihilator Particle turret" 26
+		"Ichra-04 E-Railgun Turret" 10
+		"Void raider Anti-Missile" 36
+		"Annihilator L Particle turret" 24
+		"Fast Annihilator Energy Turret" 6
+		"Small Typhoon Pod(fuel)" 12
+		
+		"Vr Armour2" 2
+		"Vr Armour" 25
+		"Large Radar Jammer" 5
+		"Liquid Helium Cooler" 7
+		"Brig"
+		"Fragmentation Grenades" 500
+		"Security Station" 8
+		"Tactical Scanner" 2
+		"Vr Fuel Regenerator"
+		"Vr shield mk4" 10
+		"Vr hull mk4" 10
+		
+		"X5700 Ion Thruster" 2
+		"X3700 Ion Thruster"
+		"X5200 Ion Steering" 2
+		"X4200 Ion Steering"
+		"Scram Drive"
+		
+	#Primary
+	turret 87.5 -794.5 "Annihilator L Particle turret"
+	turret -87.5 -794.5 "Annihilator L Particle turret"
+	turret 136.5 -794.5 "Annihilator L Particle turret"
+	turret -136.5 -794.5 "Annihilator L Particle turret"
+	turret 85.5 -721 "Annihilator L Particle turret"
+	turret -85.5 -721 "Annihilator L Particle turret"
+	turret 135 -721 "Annihilator L Particle turret"
+	turret -135 -721 "Annihilator L Particle turret"
+	turret 86 -650 "Annihilator L Particle turret"
+	turret -86 -650 "Annihilator L Particle turret"
+	turret 137 -650 "Annihilator L Particle turret"
+	turret -137 -650 "Annihilator L Particle turret"
+	turret 86 -323 "Annihilator L Particle turret"
+	turret -86 -323 "Annihilator L Particle turret"
+	turret 135 -323 "Annihilator L Particle turret"
+	turret -135 -323 "Annihilator L Particle turret"
+	turret 85 -248 "Annihilator L Particle turret"
+	turret -85 -248 "Annihilator L Particle turret"
+	turret 134.5 -248 "Annihilator L Particle turret"
+	turret -134.5 -248 "Annihilator L Particle turret"
+	turret 85 -173.5 "Annihilator L Particle turret"
+	turret -85 -173.5 "Annihilator L Particle turret"
+	turret 137 -173.5 "Annihilator L Particle turret"
+	turret -137 -173.5 "Annihilator L Particle turret"
+	#Spinal
+	gun -44 -1417 "Superheavy Annihilator EC"
+	gun 44 -1417 "Superheavy Annihilator EC"
+	#Special Heavy
+	turret 100.5 -846 "Fast Annihilator Energy Turret"
+	turret -100.5 -846 "Fast Annihilator Energy Turret"
+	turret 0 88.5 "Fast Annihilator Energy Turret"
+	turret 405 838 "Fast Annihilator Energy Turret"
+	turret -405 838 "Fast Annihilator Energy Turret"
+	turret 0 1085.5 "Fast Annihilator Energy Turret"
+	#Torps
+	gun 171.5 -1265 "VR-1F Skylance"
+	gun -171.5 -1265 "VR-1F Skylance"
+	gun 171.5 -1265 "VR-1F Skylance"
+	gun -171.5 -1265 "VR-1F Skylance"
+	gun 209.5 -1148.5 "VR-1F Skylance"
+	gun -209.5 -1148.5 "VR-1F Skylance"
+	gun 209.5 -1148.5 "VR-1F Skylance"
+	gun -209.5 -1148.5 "VR-1F Skylance"
+	#PDs
+	turret 108 -1267 "Annihilator Particle turret"
+	turret -108 -1267 "Annihilator Particle turret"
+	turret 140.5 -1193 "Void raider Anti-Missile"
+	turret -140.5 -1193 "Void raider Anti-Missile"
+	turret 169.5 -1110.5 "Annihilator Particle turret"
+	turret -169.5 -1110.5 "Annihilator Particle turret"
+	turret 105.5 -1172.5 "Annihilator Particle turret"
+	turret -105.5 -1172.5 "Annihilator Particle turret"
+	turret 126 -1120 "Void raider Anti-Missile"
+	turret -126 -1120 "Void raider Anti-Missile"
+	turret 138 -1075.5 "Void raider Anti-Missile"
+	turret -138 -1075.5 "Void raider Anti-Missile"
+	turret 139.5 -961.5 "Void raider Anti-Missile"
+	turret -139.5 -961.5 "Void raider Anti-Missile"
+	turret 139.5 -909 "Annihilator Particle turret"
+	turret -139.5 -909 "Annihilator Particle turret"
+	
+	turret 300.5 -645.5 "Annihilator Particle turret"
+	turret -300.5 -645.5 "Annihilator Particle turret"
+	turret 325 -571 "Void raider Anti-Missile"
+	turret -325 -571 "Void raider Anti-Missile"
+	turret 376 -171.5 "Annihilator Particle turret"
+	turret -376 -171.5 "Annihilator Particle turret"
+	turret 398.5 -59.5 "Void raider Anti-Missile"
+	turret -398.5 -59.5 "Void raider Anti-Missile"
+	#H Pd
+	turret 44 -47 "Void raider Anti-Missile"
+	turret -44 -47 "Void raider Anti-Missile"
+	
+	turret 81 153.5 "Annihilator Particle turret"
+	turret -81 153.5 "Annihilator Particle turret"
+	turret 81 199.5 "Void raider Anti-Missile"
+	turret -81 199.5 "Void raider Anti-Missile"
+	
+	turret 119 260 "Annihilator Particle turret"
+	turret -119 260 "Annihilator Particle turret"
+	turret 135.5 296.5 "Void raider Anti-Missile"
+	turret -135.5 296.5 "Void raider Anti-Missile"
+	turret 143 348 "Void raider Anti-Missile"
+	turret -143 348 "Void raider Anti-Missile"
+	turret 143 400 "Annihilator Particle turret"
+	turret -143 400 "Annihilator Particle turret"
+	turret 129.5 463.5 "Void raider Anti-Missile"
+	turret -129.5 463.5 "Void raider Anti-Missile"
+	turret 128.5 516.5 "Void raider Anti-Missile"
+	turret -128.5 516.5 "Void raider Anti-Missile"
+	turret 114 585.5 "Annihilator Particle turret"
+	turret -114 585.5 "Annihilator Particle turret"
+	
+	turret 22.5 1013.5 "Annihilator Particle turret"
+	turret -22.5 1013.5 "Annihilator Particle turret"
+	#Rear Gun
+	gun 543 182.5 
+	gun -543 182.5 
+	gun 543 182.5 
+	gun -543 182.5 
+	#Medium
+	turret 261 -468.5 "Ichra-04 E-Railgun Turret"
+	turret -261 -468.5 "Ichra-04 E-Railgun Turret"
+	turret 164 190.5 "Void raider Anti-Missile"
+	turret -164 190.5 "Void raider Anti-Missile"
+	turret 267 351.5 "Ichra-04 E-Railgun Turret"
+	turret -267 351.5 "Ichra-04 E-Railgun Turret"
+	turret 328.5 385.5 "Void raider Anti-Missile"
+	turret -328.5 385.5 "Void raider Anti-Missile"
+	turret 395.5 423 "Ichra-04 E-Railgun Turret"
+	turret -395.5 423 "Ichra-04 E-Railgun Turret"
+	turret 263 494 "Void raider Anti-Missile"
+	turret -263 494 "Void raider Anti-Missile"
+	turret 333.5 530.5 "Ichra-04 E-Railgun Turret"
+	turret -333.5 530.5 "Ichra-04 E-Railgun Turret"
+	turret 352.5 960.5 "Void raider Anti-Missile"
+	turret -352.5 960.5 "Void raider Anti-Missile"
+	turret 55 870.5 "Ichra-04 E-Railgun Turret"
+	turret -55 870.5 "Ichra-04 E-Railgun Turret"
+	#VLS
+	gun 107 -516.5 "Small Typhoon Pod(fuel)"
+		angle 90
+	gun -107 -516.5 "Small Typhoon Pod(fuel)"
+		angle -90
+	gun 107 -488.5 "Small Typhoon Pod(fuel)"
+		angle 90
+	gun -107 -488.5 "Small Typhoon Pod(fuel)"
+		angle -90
+	gun 107 -464 "Small Typhoon Pod(fuel)"
+		angle 90
+	gun -107 -464 "Small Typhoon Pod(fuel)"
+		angle -90
+	gun 107 -433.5 "Small Typhoon Pod(fuel)"
+		angle 90
+	gun -107 -433.5 "Small Typhoon Pod(fuel)"
+		angle -90
+	gun 80 43.5 "Small Typhoon Pod(fuel)"
+		angle 90
+	gun -80 43.5 "Small Typhoon Pod(fuel)"
+		angle -90
+	gun 86 83.5 "Small Typhoon Pod(fuel)"
+		angle 90
+	gun -86 83.5 "Small Typhoon Pod(fuel)"
+		angle -90
+	#More PDs 
+	turret 432.5 590.5 "Annihilator Particle turret"
+	turret -432.5 590.5 "Annihilator Particle turret"
+	turret 412 679.5 "Void raider Anti-Missile"
+	turret -412 679.5 "Void raider Anti-Missile"
+	turret 474 771 "Void raider Anti-Missile"
+	turret -474 771 "Void raider Anti-Missile"
+	turret 454 919 "Annihilator Particle turret"
+	turret -454 919 "Annihilator Particle turret"
+	bay "Battleship" 259 -29
+	bay "Battleship" -259 -29
+	bay "Fighter" -354 -600.5 
+	bay "Fighter" 354 -600.5 
+	bay "Fighter" -354 -600.5 
+	bay "Fighter" 354 -600.5 
+	bay "Fighter" -354 -600.5 
+	bay "Fighter" 354 -600.5 
+	bay "Fighter" -354 -600.5 
+	bay "Fighter" 354 -600.5 
+	bay "Fighter" -354 -600.5 
+	bay "Fighter" 354 -600.5 
+	bay "Fighter" -354 -600.5 
+	bay "Fighter" 354 -600.5 
+	bay "Fighter" -354 -600.5 
+	bay "Fighter" 354 -600.5 
+	bay "Fighter" -354 -600.5 
+	bay "Fighter" 354 -600.5 
+	bay "Fighter" -354 -600.5 
+	bay "Fighter" 354 -600.5 
+	bay "Fighter" -354 -600.5 
+	bay "Fighter" 354 -600.5 
+	bay "Drone" -354 -600.5 
+	bay "Drone" 354 -600.5 
+	bay "Drone" -354 -600.5 
+	bay "Drone" 354 -600.5 
+	bay "Drone" -354 -600.5 
+	bay "Drone" 354 -600.5 
+	bay "Drone" -354 -600.5 
+	bay "Drone" 354 -600.5 
+	bay "Drone" -354 -600.5 
+	bay "Drone" 354 -600.5 
+	bay "Drone" -354 -600.5 
+	bay "Drone" 354 -600.5 
+	bay "Drone" -354 -600.5 
+	bay "Drone" 354 -600.5 
+	bay "Drone" -354 -600.5 
+	bay "Drone" 354 -600.5 
+	bay "Drone" -354 -600.5 
+	bay "Drone" 354 -600.5 
+	bay "Drone" -354 -600.5 
+	bay "Drone" 354 -600.5 
+	bay "Fighter" 449.5 -95.5 
+	bay "Fighter" -449.5 -95.5 
+	bay "Fighter" 449.5 -95.5 
+	bay "Fighter" -449.5 -95.5 
+	bay "Fighter" 449.5 -95.5 
+	bay "Fighter" -449.5 -95.5 
+	bay "Fighter" 449.5 -95.5 
+	bay "Fighter" -449.5 -95.5 
+	bay "Fighter" 449.5 -95.5 
+	bay "Fighter" -449.5 -95.5 
+	bay "Fighter" 449.5 -95.5 
+	bay "Fighter" -449.5 -95.5 
+	bay "Fighter" 449.5 -95.5 
+	bay "Fighter" -449.5 -95.5 
+	bay "Fighter" 449.5 -95.5 
+	bay "Fighter" -449.5 -95.5 
+	bay "Fighter" 449.5 -95.5 
+	bay "Fighter" -449.5 -95.5 
+	bay "Fighter" 449.5 -95.5 
+	bay "Fighter" -449.5 -95.5 
+	bay "Drone" 449.5 -95.5 
+	bay "Drone" -449.5 -95.5 
+	bay "Drone" 449.5 -95.5 
+	bay "Drone" -449.5 -95.5 
+	bay "Drone" 449.5 -95.5 
+	bay "Drone" -449.5 -95.5 
+	bay "Drone" 449.5 -95.5 
+	bay "Drone" -449.5 -95.5 
+	bay "Drone" 449.5 -95.5 
+	bay "Drone" -449.5 -95.5 
+	bay "Drone" 449.5 -95.5 
+	bay "Drone" -449.5 -95.5 
+	bay "Drone" 449.5 -95.5 
+	bay "Drone" -449.5 -95.5 
+	bay "Drone" 449.5 -95.5 
+	bay "Drone" -449.5 -95.5 
+	bay "Drone" 449.5 -95.5 
+	bay "Drone" -449.5 -95.5 
+	bay "Drone" 449.5 -95.5 
+	bay "Drone" -449.5 -95.5
+	bay "Interceptor" -354 -600.5 
+	bay "Interceptor" 354 -600.5 
+	bay "Interceptor" -354 -600.5 
+	bay "Interceptor" 354 -600.5 
+	bay "Interceptor" -354 -600.5 
+	bay "Interceptor" 354 -600.5 
+	bay "Interceptor" -354 -600.5 
+	bay "Interceptor" 354 -600.5 
+	bay "Interceptor" -354 -600.5 
+	bay "Interceptor" 354 -600.5 
+	bay "Interceptor" -354 -600.5 
+	bay "Interceptor" 354 -600.5 
+	bay "Interceptor" -354 -600.5 
+	bay "Interceptor" 354 -600.5 
+	bay "Interceptor" -354 -600.5 
+	bay "Interceptor" 354 -600.5 
+	bay "Interceptor" -354 -600.5 
+	bay "Interceptor" 354 -600.5 
+	bay "Interceptor" -354 -600.5 
+	bay "Interceptor" 354 -600.5 
+	bay "Light Warship" -354 -600.5 
+	bay "Light Warship" 354 -600.5 
+	bay "Light Warship" -354 -600.5 
+	bay "Light Warship" 354 -600.5 
+	bay "Light Warship" -354 -600.5 
+	bay "Light Warship" 354 -600.5 
+	bay "Light Warship" -354 -600.5 
+	bay "Light Warship" 354 -600.5 
+	bay "Light Warship" -354 -600.5 
+	bay "Light Warship" 354 -600.5 
+	bay "Light Warship" -354 -600.5 
+	bay "Light Warship" 354 -600.5 
+	bay "Light Warship" -354 -600.5 
+	bay "Light Warship" 354 -600.5 
+	bay "Light Warship" -354 -600.5 
+	bay "Light Warship" 354 -600.5 
+	bay "Light Warship" -354 -600.5 
+	bay "Light Warship" 354 -600.5 
+	bay "Light Warship" -354 -600.5 
+	bay "Light Warship" 354 -600.5 
+	bay "Interceptor" 449.5 -95.5 
+	bay "Interceptor" -449.5 -95.5 
+	bay "Interceptor" 449.5 -95.5 
+	bay "Interceptor" -449.5 -95.5 
+	bay "Interceptor" 449.5 -95.5 
+	bay "Interceptor" -449.5 -95.5 
+	bay "Interceptor" 449.5 -95.5 
+	bay "Interceptor" -449.5 -95.5 
+	bay "Interceptor" 449.5 -95.5 
+	bay "Interceptor" -449.5 -95.5 
+	bay "Interceptor" 449.5 -95.5 
+	bay "Interceptor" -449.5 -95.5 
+	bay "Interceptor" 449.5 -95.5 
+	bay "Interceptor" -449.5 -95.5 
+	bay "Interceptor" 449.5 -95.5 
+	bay "Interceptor" -449.5 -95.5 
+	bay "Interceptor" 449.5 -95.5 
+	bay "Interceptor" -449.5 -95.5 
+	bay "Interceptor" 449.5 -95.5 
+	bay "Interceptor" -449.5 -95.5 
+	bay "Light Warship" 449.5 -95.5 
+	bay "Light Warship" -449.5 -95.5 
+	bay "Light Warship" 449.5 -95.5 
+	bay "Light Warship" -449.5 -95.5 
+	bay "Light Warship" 449.5 -95.5 
+	bay "Light Warship" -449.5 -95.5 
+	bay "Light Warship" 449.5 -95.5 
+	bay "Light Warship" -449.5 -95.5 
+	bay "Light Warship" 449.5 -95.5 
+	bay "Light Warship" -449.5 -95.5 
+	bay "Light Warship" 449.5 -95.5 
+	bay "Light Warship" -449.5 -95.5 
+	bay "Light Warship" 449.5 -95.5 
+	bay "Light Warship" -449.5 -95.5 
+	bay "Light Warship" 449.5 -95.5 
+	bay "Light Warship" -449.5 -95.5 
+	bay "Light Warship" 449.5 -95.5 
+	bay "Light Warship" -449.5 -95.5 
+	bay "Light Warship" 449.5 -95.5 
+	bay "Light Warship" -449.5 -95.5
+	bay "Medium Warship" -354 -600.5 
+	bay "Medium Warship" 354 -600.5 
+	bay "Medium Warship" -354 -600.5 
+	bay "Medium Warship" 354 -600.5 
+	bay "Medium Warship" -354 -600.5 
+	bay "Medium Warship" 354 -600.5 
+	bay "Medium Warship" -354 -600.5 
+	bay "Medium Warship" 354 -600.5 
+	bay "Medium Warship" -354 -600.5 
+	bay "Medium Warship" 354 -600.5 
+	bay "Medium Warship" -354 -600.5 
+	bay "Medium Warship" 354 -600.5 
+	bay "Medium Warship" -354 -600.5 
+	bay "Medium Warship" 354 -600.5 
+	bay "Medium Warship" -354 -600.5 
+	bay "Medium Warship" 354 -600.5 
+	bay "Medium Warship" -354 -600.5 
+	bay "Medium Warship" 354 -600.5 
+	bay "Medium Warship" -354 -600.5 
+	bay "Medium Warship" 354 -600.5 
+	bay "Heavy Warship" -354 -600.5 
+	bay "Heavy Warship" 354 -600.5 
+	bay "Heavy Warship" -354 -600.5 
+	bay "Heavy Warship" 354 -600.5 
+	bay "Heavy Warship" -354 -600.5 
+	bay "Heavy Warship" 354 -600.5 
+	bay "Heavy Warship" -354 -600.5 
+	bay "Heavy Warship" 354 -600.5 
+	bay "Heavy Warship" -354 -600.5 
+	bay "Heavy Warship" 354 -600.5 
+	bay "Heavy Warship" -354 -600.5 
+	bay "Heavy Warship" 354 -600.5 
+	bay "Heavy Warship" -354 -600.5 
+	bay "Heavy Warship" 354 -600.5 
+	bay "Heavy Warship" -354 -600.5 
+	bay "Heavy Warship" 354 -600.5 
+	bay "Heavy Warship" -354 -600.5 
+	bay "Heavy Warship" 354 -600.5 
+	bay "Heavy Warship" -354 -600.5 
+	bay "Heavy Warship" 354 -600.5 
+	bay "Medium Warship" 449.5 -95.5 
+	bay "Medium Warship" -449.5 -95.5 
+	bay "Medium Warship" 449.5 -95.5 
+	bay "Medium Warship" -449.5 -95.5 
+	bay "Medium Warship" 449.5 -95.5 
+	bay "Medium Warship" -449.5 -95.5 
+	bay "Medium Warship" 449.5 -95.5 
+	bay "Medium Warship" -449.5 -95.5 
+	bay "Medium Warship" 449.5 -95.5 
+	bay "Medium Warship" -449.5 -95.5 
+	bay "Medium Warship" 449.5 -95.5 
+	bay "Medium Warship" -449.5 -95.5 
+	bay "Medium Warship" 449.5 -95.5 
+	bay "Medium Warship" -449.5 -95.5 
+	bay "Medium Warship" 449.5 -95.5 
+	bay "Medium Warship" -449.5 -95.5 
+	bay "Medium Warship" 449.5 -95.5 
+	bay "Medium Warship" -449.5 -95.5 
+	bay "Medium Warship" 449.5 -95.5 
+	bay "Medium Warship" -449.5 -95.5 
+	bay "Heavy Warship" 449.5 -95.5 
+	bay "Heavy Warship" -449.5 -95.5 
+	bay "Heavy Warship" 449.5 -95.5 
+	bay "Heavy Warship" -449.5 -95.5 
+	bay "Heavy Warship" 449.5 -95.5 
+	bay "Heavy Warship" -449.5 -95.5 
+	bay "Heavy Warship" 449.5 -95.5 
+	bay "Heavy Warship" -449.5 -95.5 
+	bay "Heavy Warship" 449.5 -95.5 
+	bay "Heavy Warship" -449.5 -95.5 
+	bay "Heavy Warship" 449.5 -95.5 
+	bay "Heavy Warship" -449.5 -95.5 
+	bay "Heavy Warship" 449.5 -95.5 
+	bay "Heavy Warship" -449.5 -95.5 
+	bay "Heavy Warship" 449.5 -95.5 
+	bay "Heavy Warship" -449.5 -95.5 
+	bay "Heavy Warship" 449.5 -95.5 
+	bay "Heavy Warship" -449.5 -95.5 
+	bay "Heavy Warship" 449.5 -95.5 
+	bay "Heavy Warship" -449.5 -95.5
+	engine 0 1433.5 
+		zoom 3
+	engine 143 1330 
+		zoom 2.25
+	engine -143 1330 
+		zoom 2.25
+	engine 244 1229 
+		zoom 1.0
+	engine -244 1229 
+		zoom 1.0
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	explode "nuke explosion" 10
+	"final explode" "final explosion large" 2
+	description `Developed shortly after the alien attack at Farpoint as dedicated weapon platform very heavily armed with multiple large anti-capital turrets enough to shred most warships in seconds, it is essentially a mobile battlestation to fend off against future alien attack.`
+
+
+ship "A-15F Rondel"
+	sprite "ship/mgf navy bomber1"
+	attributes
+		category "Fighter"
+		"cost" 93000
+		"shields" 5000
+		"hull" 1500
+		"fuel capacity" 400
+		"required crew" 2
+		"bunks" 2
+		"mass" 35
+		"drag" .9
+		"heat dissipation" .8
+		"outfit space" 12000
+		"weapon capacity" 2500
+		"engine capacity" 3000
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"VR-1F Skylance" 2
+		"Small Typhoon Pod(fuel)" 2
+		
+		"Vr Armour2" 1
+		"Vr Armour" 10
+		"Vr shield mk4"
+		"Vr hull mk4"
+		"Small Radar Jammer" 2
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		
+	gun -9 -1.5 
+	gun 9 -1.5 
+	gun -13 5 
+	gun 13 5 
+	engine 0 38 
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "A relatively recent fighter/bomber developed alongside the Spetum to provide more effective anti-ship capability."
+	
+ship "Typ015 Guangzhou"
+	sprite "ship/mgf ccs guangzhou1"
+		"frame time" 25
+		"rewind"
+		"delay" 10
+	attributes
+		category "Heavy Warship"
+		"cost" 14200000
+		"shields" 17500
+		"hull" 18000
+		"required crew" 254
+		"bunks" 340
+		"mass" 7585
+		"drag" 22.8
+		"heat dissipation" .4
+		"fuel capacity" 1200
+		"cargo space" 50
+		"outfit space" 3020
+		"weapon capacity" 2170
+		"engine capacity" 220
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Annihilator Particle turret" 10
+		"Annihilator L Particle turret" 7
+		"Void raider Anti-Missile" 8
+		"Blaster Turret" 6
+		"Small Typhoon Pod(fuel)" 14
+		
+		"Vr Armour2"
+		"Vr Armour" 10
+		"Vr Fuel Regenerator"
+		"Vr hull mk4" 4
+		"Laser Rifle" 50
+		"Vr shield mk4" 4
+		
+		"X5700 Ion Thruster"
+		"X5200 Ion Steering"
+		"Hyperdrive"
+		
+	turret 0 -228.5 "Annihilator L Particle turret"
+		"angle" 0
+		"arc" -90 90
+	turret 0 -162.5 "Annihilator L Particle turret"
+		"angle" 0
+		"arc" -90 90
+	turret 0 -96.5 "Annihilator L Particle turret"
+		"angle" 0
+		"arc" -90 90
+	turret 0 -21.5 "Annihilator L Particle turret"
+		"angle" 0
+		"arc" -90 90
+	turret 0 32 "Annihilator L Particle turret"
+		"angle" 0
+		"arc" -90 90
+	turret 0 245 "Annihilator L Particle turret"
+		"angle" 180
+		"arc" -90 90
+	turret 0 295.5 "Annihilator L Particle turret"
+		"angle" 180
+		"arc" -90 90
+
+	turret 62.5 -264 "Annihilator Particle turret"
+		"angle" 90
+		"arc" -90 90
+	turret -62.5 -264 "Annihilator Particle turret"
+		"angle" 270
+		"arc" -90 90
+	turret 62.5 -217 "Void raider Anti-Missile"
+		"angle" 90
+		"arc" -90 90
+	turret -62.5 -217 "Void raider Anti-Missile"
+		"angle" 270
+		"arc" -90 90
+	turret 62.5 -169 "Annihilator Particle turret"
+		"angle" 90
+		"arc" -90 90
+	turret -62.5 -169 "Annihilator Particle turret"
+		"angle" 270
+		"arc" -90 90
+
+	turret 88 -51.5 "Annihilator Particle turret"
+		"angle" 90
+		"arc" -90 90
+	turret -88 -51.5 "Annihilator Particle turret"
+		"angle" 270
+		"arc" -90 90
+	turret 88 -3 "Void raider Anti-Missile"
+		"angle" 90
+		"arc" -90 90
+	turret -88 -3 "Void raider Anti-Missile"
+		"angle" 270
+		"arc" -90 90
+	turret 88 44 "Annihilator Particle turret"
+		"angle" 90
+		"arc" -90 90
+	turret -88 44 "Annihilator Particle turret"
+		"angle" 270
+		"arc" -90 90
+
+	turret 99 115 
+		"angle" 90
+		"arc" -90 90
+	turret -99 115 
+		"angle" 270
+		"arc" -90 90
+	turret 99 138.5 "Void raider Anti-Missile"
+		"angle" 90
+		"arc" -90 90
+	turret -99 138.5 "Void raider Anti-Missile"
+		"angle" 270
+		"arc" -90 90
+	turret 99 161.5 
+		"angle" 90
+		"arc" -90 90
+	turret -99 161.5 
+		"angle" 270
+		"arc" -90 90
+
+	turret 38.5 199 
+		"angle" 90
+		"arc" -90 90
+	turret -38.5 199 
+		"angle" 270
+		"arc" -90 90
+	turret 38.5 221.5 "Void raider Anti-Missile"
+		"angle" 90
+		"arc" -90 90
+	turret -38.5 221.5 "Void raider Anti-Missile"
+		"angle" 270
+		"arc" -90 90
+	turret 38.5 244.5 "Annihilator Particle turret"
+		"angle" 135
+		"arc" -90 90
+	turret -38.5 244.5 "Annihilator Particle turret"
+		"angle" 225
+		"arc" -90 90
+
+	engine 29.5 354 
+	engine -29.5 354 
+	engine 78.5 324.5 
+		zoom .8
+	engine -78.5 324.5 
+		zoom .8
+	engine 120.5 304.5 
+		zoom .8
+	engine -120.5 304.5 
+		zoom .8
+	gun 57 -361 
+	gun -57 -361 
+	gun 57 -361 
+	gun -57 -361 
+	gun 57 -361 
+	gun -57 -361 
+	gun 22.5 -342.5 
+	gun -22.5 -342.5 
+	gun 22.5 -342.5 
+	gun -22.5 -342.5 
+	gun 22.5 -335 
+	gun -22.5 -335 
+	gun 22.5 -335 
+		over
+	gun -22.5 -335 
+		over
+	bay "Fighter" -125 -48 
+		left
+	bay "Fighter" 125 -48 
+		right
+	bay "Fighter" -125 -19
+		left
+	bay "Fighter" 125 -19
+		right
+	bay "Fighter" -123 9 
+		left
+	bay "Fighter" 123 9 
+		right
+	bay "Fighter" -123 36
+		left
+	bay "Fighter" 123 36
+		right
+	bay "Fighter" -124 67
+		left
+	bay "Fighter" 124 67
+		right
+	bay "Fighter" -126 95 
+		left
+	bay "Fighter" 126 95 
+		right
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description `Guangzhou class battleship designed and built by CCS Corp. is one of the largest commercially avaliable warship at its time of release often taking the role of heavy escort for cargo fleets.`
+	description `Though it is one of the most expensive warship on the civilian market its firepower is unmatched making it a prime choice for captains looking for non-carrier heavy escort.`
+
+ship "Typ015-A Guangzhou"
+	sprite "ship/mgf ccs guangzhou1"
+		"frame time" 25
+		"rewind"
+		"delay" 10
+	attributes
+		category "Automated Heavy Warship"
+		"automaton" 1
+		"cost" 10000000
+		"shields" 25000
+		"hull" 20000
+		"required crew" 0
+		"bunks" 0
+		"mass" 7585
+		"drag" 22.8
+		"heat dissipation" .4
+		"fuel capacity" 1200
+		"cargo space" 50
+		"outfit space" 3020
+		"weapon capacity" 2170
+		"engine capacity" 220
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Annihilator Fuel Particle turret" 10
+		"Annihilator LF Particle turret" 7
+		"Void raider EF Anti-Missile" 8
+		"F-P Red Zapper Turret"" 6
+		"Small Typhoon Pod(fuel)" 14
+		
+		"Vr Armour2"
+		"Vr Armour" 10
+		"Vr Fuel Regenerator"
+		"Vr hull mk4" 4
+		"Laser Rifle" 50
+		"Vr shield mk4" 4
+		
+		"X5700 Ion Thruster"
+		"X5200 Ion Steering"
+		
+	turret 0 -228.5 "Annihilator LF Particle turret"
+		"angle" 0
+		"arc" -90 90
+	turret 0 -162.5 "Annihilator LF Particle turret"
+		"angle" 0
+		"arc" -90 90
+	turret 0 -96.5 "Annihilator LF Particle turret"
+		"angle" 0
+		"arc" -90 90
+	turret 0 -21.5 "Annihilator LF Particle turret"
+		"angle" 0
+		"arc" -90 90
+	turret 0 32 "Annihilator LF Particle turret"
+		"angle" 0
+		"arc" -90 90
+	turret 0 245 "Annihilator LF Particle turret"
+		"angle" 180
+		"arc" -90 90
+	turret 0 295.5 "Annihilator LF Particle turret"
+		"angle" 180
+		"arc" -90 90
+
+	turret 62.5 -264 "Annihilator Fuel Particle turret"
+		"angle" 90
+		"arc" -90 90
+	turret -62.5 -264 "Annihilator Fuel Particle turret"
+		"angle" 270
+		"arc" -90 90
+	turret 62.5 -217 "Void raider EF Anti-Missile"
+		"angle" 90
+		"arc" -90 90
+	turret -62.5 -217 "Void raider EF Anti-Missile"
+		"angle" 270
+		"arc" -90 90
+	turret 62.5 -169 "Annihilator Fuel Particle turret"
+		"angle" 90
+		"arc" -90 90
+	turret -62.5 -169 "Annihilator Fuel Particle turret"
+		"angle" 270
+		"arc" -90 90
+
+	turret 88 -51.5 "Annihilator Fuel Particle turret"
+		"angle" 90
+		"arc" -90 90
+	turret -88 -51.5 "Annihilator Fuel Particle turret"
+		"angle" 270
+		"arc" -90 90
+	turret 88 -3 "Void raider EF Anti-Missile"
+		"angle" 90
+		"arc" -90 90
+	turret -88 -3 "Void raider EF Anti-Missile"
+		"angle" 270
+		"arc" -90 90
+	turret 88 44 "Annihilator Fuel Particle turret"
+		"angle" 90
+		"arc" -90 90
+	turret -88 44 "Annihilator Fuel Particle turret"
+		"angle" 270
+		"arc" -90 90
+
+	turret 99 115 
+		"angle" 90
+		"arc" -90 90
+	turret -99 115 
+		"angle" 270
+		"arc" -90 90
+	turret 99 138.5 "Void raider EF Anti-Missile"
+		"angle" 90
+		"arc" -90 90
+	turret -99 138.5 "Void raider EF Anti-Missile"
+		"angle" 270
+		"arc" -90 90
+	turret 99 161.5 
+		"angle" 90
+		"arc" -90 90
+	turret -99 161.5 
+		"angle" 270
+		"arc" -90 90
+
+	turret 38.5 199 
+		"angle" 90
+		"arc" -90 90
+	turret -38.5 199 
+		"angle" 270
+		"arc" -90 90
+	turret 38.5 221.5 "Void raider EF Anti-Missile"
+		"angle" 90
+		"arc" -90 90
+	turret -38.5 221.5 "Void raider EF Anti-Missile"
+		"angle" 270
+		"arc" -90 90
+	turret 38.5 244.5 "Annihilator Fuel Particle turret"
+		"angle" 135
+		"arc" -90 90
+	turret -38.5 244.5 "Annihilator Fuel Particle turret"
+		"angle" 225
+		"arc" -90 90
+
+	engine 29.5 354 
+	engine -29.5 354 
+	engine 78.5 324.5 
+		zoom .8
+	engine -78.5 324.5 
+		zoom .8
+	engine 120.5 304.5 
+		zoom .8
+	engine -120.5 304.5 
+		zoom .8
+	gun 57 -361 
+	gun -57 -361 
+	gun 57 -361 
+	gun -57 -361 
+	gun 57 -361 
+	gun -57 -361 
+	gun 22.5 -342.5 
+	gun -22.5 -342.5 
+	gun 22.5 -342.5 
+	gun -22.5 -342.5 
+	gun 22.5 -335 
+	gun -22.5 -335 
+	gun 22.5 -335 
+		over
+	gun -22.5 -335 
+		over
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description `Guangzhou class battleship designed and built by CCS Corp. is one of the largest commercially avaliable warship at its time of release often taking the role of heavy escort for cargo fleets.`
+	description `Though it is one of the most expensive warship on the civilian market its firepower is unmatched making it a prime choice for captains looking for non-carrier heavy escort.This variant is an automated variant of the original 015.`

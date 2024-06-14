@@ -1,0 +1,134 @@
+# Copyright (c) 2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+outfit "Pug red Zapper"
+	category "Guns"
+	cost 290000
+	thumbnail "outfit/pug zapper"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	weapon
+		sprite "projectile/redlightning"
+				"scale" 1.625
+			"frame rate" 60
+			"random start frame"
+			"delay" 6
+		sound "zapper"
+		"hit effect" " red zapper impact"
+		"inaccuracy" .3
+		"velocity" 520
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 2.7
+		"firing heat" 1.4
+		"shield damage" 175
+		"hull damage" 175
+	description "This is a formidable beam weapon, more damaging than even the most advanced energy beams that humanity has developed. Pug ships have integrated power plants that produce the considerable amount of energy that is needed to drive weapons like this one."
+
+outfit "Pug Red Zapper Turret"
+	category "Turrets"
+	cost 860000
+	thumbnail "outfit/pug zapper turret"
+	"mass" 66
+	"outfit space" -66
+	"weapon capacity" -66
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/redlightning"
+			"scale" 1.625
+			"frame rate" 60
+			"random start frame"
+		"hardpoint sprite" "hardpoint/pug zapper turret"
+		"hardpoint offset" 7.
+		sound "zapper"
+		"hit effect" "red zapper impact"
+		"inaccuracy" .3
+		"turret turn" 3
+		"velocity" 520
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 5.4
+		"firing heat" 2.8
+		"shield damage" 125
+		"hull damage" 125
+	description "Mounted on a turret, this Pug weapon becomes even more devastatingly powerful. However, its energy requirements are higher than most human ships can support."
+
+effect "red zapper impact"
+	sprite "effect/red zapper impact"
+		"frame rate" 60
+		"random start frame"
+	"lifetime" 2
+	"random angle" 360
+	"random spin" 1
+	"velocity scale" 0.1
+
+outfit "F-P red Zapper"
+	category "Guns"
+	cost 290000
+	thumbnail "outfit/pug zapper"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
+	weapon
+		sprite "projectile/redlightning"
+			"scale" 1.625
+			"frame rate" 60
+			"random start frame"
+			"delay" 6
+		sound "zapper"
+		"hit effect" " red zapper impact"
+		"inaccuracy" .3
+		"velocity" 520
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 2.7
+		"firing fuel" 2
+		"firing heat" 1.4
+		"shield damage" 150
+		"hull damage" 150
+	description "This is a formidable beam weapon, more damaging than even the most advanced energy beams that humanity has developed. Pug ships have integrated power plants that produce the considerable amount of energy that is needed to drive weapons like this one."
+
+outfit "F-P Red Zapper Turret"
+	category "Turrets"
+	cost 860000
+	thumbnail "outfit/pug zapper turret"
+	"mass" 13
+	"outfit space" -13
+	"weapon capacity" -13
+	"turret mounts" -1
+	"required crew" 0
+	weapon
+		sprite "projectile/redlightning"
+			"scale" 1.625
+			"frame rate" 60
+			"random start frame"
+		"hardpoint sprite" "hardpoint/pug zapper turret"
+			"scale" 0.75
+		"hardpoint offset" 7.
+		sound "zapper"
+		"hit effect" "red zapper impact"
+		"inaccuracy" .3
+		"turret turn" 3.5
+		"velocity" 520
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 5.4
+		"firing heat" 2.8
+		"firing fuel" 2
+		"shield damage" 100
+		"hull damage" 100
+	description "Mounted on a turret, this Pug weapon becomes even more devastatingly powerful. However, its energy requirements are higher than most human ships can support."

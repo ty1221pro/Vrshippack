@@ -1,0 +1,5 @@
+fleet "Rogue Void raider Dark energy ship"
+	government Bounty
+	personality nemesis
+	add variant
+		"Enemy Voidraider Dark energy ship"

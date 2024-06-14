@@ -1,0 +1,191 @@
+ship "Dragonkin Class Superstalker"
+	sprite "ship/Dragonkin"
+		"scale" 0.5
+		"swizzle" 6
+	attributes
+		category "Dragonkins Will"
+		"cost" 100000
+		"shields" 750000
+		"hull" 500000
+		"required crew" 1
+		"bunks" 2456
+		"mass" 250000
+		"drag" 150
+		"heat dissipation" 10000
+		"fuel capacity" 100000
+		"cargo space" 2500
+		"outfit space" 100000000
+		"weapon capacity" 100000000
+		"engine capacity" 100000000
+	outfits
+		"Vr shield mk4" 15
+		"Vr hull mk4" 15
+		"Vr Fuel Regenerator" 3
+		"VR Hull Nanites" 1
+		"Superheavy Deavastator Energy Turret" 12
+		"VR Shield Timer" 2
+		"Vr Armour" 5
+		"Void Raider Flagship Engines" 2
+		"Superheavy Annihilator EC"
+		"Annihilator Particle turret" 12
+		"Void raider Anti-Missile" 8
+		"Annihilator L Particle turret" 14
+		"Ichra-04 E-Railgun" 8
+		"X11 Ion Afterburner" 2
+		"X1111 Ion Reverse Thruster" 2
+		"Typhoon Pod(fuel)" 6
+		"Vr Armour2" 2
+		"Ichra-05 L-Railgun Turret" 14
+		
+		
+		
+		
+		
+
+	gun -23.25 -1231 "Ichra-04 E-Railgun"
+	gun 23.25 -1231 "Ichra-04 E-Railgun"
+	gun -227.75 480.75 "Typhoon Pod(fuel)"
+	gun 227.75 480.75 "Typhoon Pod(fuel)"
+	gun -285.25 398.25 "Typhoon Pod(fuel)"
+	gun 285.25 398.25 "Typhoon Pod(fuel)"
+	gun -314 222.5 "Typhoon Pod(fuel)"
+	gun 314 222.5 "Typhoon Pod(fuel)"
+	gun -350 251.25 "Ichra-04 E-Railgun"
+	gun 350 251.25 "Ichra-04 E-Railgun"
+	gun -428.75 473.75 "Ichra-04 E-Railgun"
+	gun 428.75 473.75 "Ichra-04 E-Railgun"
+	gun -52 -1001.25 "Ichra-04 E-Railgun"
+	gun 52 -1001.25 "Ichra-04 E-Railgun"
+	gun 0 -965.25 "Superheavy Annihilator EC"
+	turret -30.5 -1073 "Void raider Anti-Missile"
+	turret 30.5 -1073 "Void raider Anti-Missile"
+	turret -34 -976 "Void raider Anti-Missile"
+	turret 34 -976 "Void raider Anti-Missile"
+	turret 0 -922.25 "Superheavy Deavastator Energy Turret"
+	turret -41.25 -875.5 "Annihilator L Particle turret"
+	turret 41.25 -875.5 "Annihilator L Particle turret"
+	turret 0 -811 "Superheavy Deavastator Energy Turret"
+	turret -52 -768 "Annihilator L Particle turret"
+	turret 52 -768 "Annihilator L Particle turret"
+	turret 0 -707 "Superheavy Deavastator Energy Turret"
+	turret -48.5 -635.25 "Annihilator L Particle turret"
+	turret 48.5 -635.25 "Annihilator L Particle turret"
+	turret 0 -549 "Superheavy Deavastator Energy Turret"
+	turret -48.5 -470 "Annihilator L Particle turret"
+	turret 48.5 -470 "Annihilator L Particle turret"
+	turret -62.75 -358.75 "Annihilator Particle turret"
+	turret 62.75 -358.75 "Annihilator Particle turret"
+	turret 0 -269 "Superheavy Deavastator Energy Turret"
+	turret -98.75 -219 "Annihilator L Particle turret"
+	turret 98.75 -219 "Annihilator L Particle turret"
+	turret 0 -193.75 "Superheavy Deavastator Energy Turret"
+	turret -41.25 -100.5 "Annihilator Particle turret"
+	turret 41.25 -100.5 "Annihilator Particle turret"
+	turret -109.5 -64.5 "Annihilator L Particle turret"
+	turret 109.5 -64.5 "Annihilator L Particle turret"
+	turret 0 7.25 "Superheavy Deavastator Energy Turret"
+	turret -77.25 21.5 "Ichra-05 L-Railgun Turret"
+	turret 77.25 21.5 "Ichra-05 L-Railgun Turret"
+	turret 0 111.25 "Superheavy Deavastator Energy Turret"
+	turret -105.75 154.25 "Ichra-05 L-Railgun Turret"
+	turret 105.75 154.25 "Ichra-05 L-Railgun Turret"
+	turret 0 229.75 "Superheavy Deavastator Energy Turret"
+	turret -91.5 272.75 "Ichra-05 L-Railgun Turret"
+	turret 91.5 272.75 "Ichra-05 L-Railgun Turret"
+	turret 0 341 "Superheavy Deavastator Energy Turret"
+	turret -95 391.25 "Ichra-05 L-Railgun Turret"
+	turret 95 391.25 "Ichra-05 L-Railgun Turret"
+	turret -163.25 488 "Annihilator L Particle turret"
+	turret 163.25 488 "Annihilator L Particle turret"
+	turret -263.75 567 "Annihilator Particle turret"
+	turret 263.75 567 "Annihilator Particle turret"
+	turret -350 502.5 "Ichra-05 L-Railgun Turret"
+	turret 350 502.5 "Ichra-05 L-Railgun Turret"
+	turret -48.5 606.5 "Void raider Anti-Missile"
+	turret 48.5 606.5 "Void raider Anti-Missile"
+	turret -62.75 696.25 "Annihilator Particle turret"
+	turret 62.75 696.25 "Annihilator Particle turret"
+	turret -37.75 757.25 "Annihilator Particle turret"
+	turret 37.75 757.25 "Annihilator Particle turret"
+	turret -34 854 "Annihilator Particle turret"
+	turret 34 854 "Annihilator Particle turret"
+	turret -177.75 839.75 "Ichra-05 L-Railgun Turret"
+	turret 177.75 839.75 "Ichra-05 L-Railgun Turret"
+	turret -299.75 820 "Ichra-05 L-Railgun Turret"
+	turret 299.75 820 "Ichra-05 L-Railgun Turret"
+	turret 0 918.75 "Superheavy Deavastator Energy Turret"
+	turret 0 997.5 "Superheavy Deavastator Energy Turret"
+	turret -27 1159 "Void raider Anti-Missile"
+	turret 27 1159 "Void raider Anti-Missile"
+	engine -91.5 1137.5 
+	engine 91.5 1137.5 
+	engine -305 972.5 
+	engine 305 972.5 
+	"reverse engine" -188.5 419.75 
+	"reverse engine" 188.5 419.75 
+	"steering engine" -91.5 1137.5 
+		left
+	"steering engine" 91.5 1137.5 
+		right
+	"steering engine" -305 972.5 
+		left
+	"steering engine" 305 972.5
+		right
+	bay "Fighter" -59.25 -875.5 
+	bay "Fighter" 59.25 -875.5 
+	bay "Fighter" -62.75 -757.25 
+	bay "Fighter" 62.75 -757.25 
+	bay "Fighter" -77.25 -635.25 
+	bay "Fighter" 77.25 -635.25 
+	bay "Fighter" -80.75 -563.5 
+	bay "Fighter" 80.75 -563.5 
+	bay "Fighter" -91.5 -437.75 
+	bay "Fighter" 91.5 -437.75 
+	bay "Fighter" -102.25 -337.25 
+	bay "Fighter" 102.25 -337.25 
+	bay "Fighter" -113 -247.5 
+	bay "Fighter" 113 -247.5 
+	bay "Fighter" -120.25 -93.25 
+	bay "Fighter" 120.25 -93.25 
+	bay "Fighter" -140 36 
+	bay "Fighter" 140 36 
+	bay "Fighter" -149 158 
+	bay "Fighter" 149 158 
+	bay "Drone" -55.5 -925.75 
+	bay "Drone" 55.5 -925.75 
+	bay "Drone" -73.5 -746.5 
+	bay "Drone" 73.5 -746.5 
+	bay "Drone" -70 -631.5 
+	bay "Drone" 70 -631.5 
+	bay "Drone" -80.75 -495.25 
+	bay "Drone" 80.75 -495.25 
+	bay "Drone" -88 -366 
+	bay "Drone" 88 -366 
+	bay "Drone" -105.75 -244 
+	bay "Drone" 105.75 -244 
+	bay "Drone" -131 -61 
+	bay "Drone" 131 -61 
+	bay "Drone" -138.25 89.75 
+	bay "Drone" 138.25 89.75 
+	bay "Drone" -149 287 
+	bay "Drone" 149 287 
+	bay "Interceptor" -163.25 513.25 
+	bay "Interceptor" 163.25 513.25 
+	bay "Light Warship" -163.25 513.25 
+	bay "Light Warship" 163.25 513.25 
+	bay "Medium Warship" -163.25 513.25 
+	bay "Medium Warship" 163.25 513.25 
+	bay "Heavy Warship" -163.25 513.25 
+	bay "Heavy Warship" 163.25 513.25 
+	bay "Battleship" -163.25 513.25 
+	bay "Battleship" 163.25 513.25
+	explode "tiny explosion" 60
+	explode "small explosion" 26
+	explode "medium explosion" 47
+	explode "large explosion" 39
+	explode "huge explosion" 42
+	explode "nuke explosion" 2
+	"final explode" "nuke explosion" 2
+	"final explode" "nuke residue fast" 50
+	description "This ship is meant for one thing only and that's galactic conquest."
+

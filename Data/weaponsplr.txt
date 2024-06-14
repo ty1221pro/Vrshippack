@@ -1,0 +1,516 @@
+outfit "141-103 Twin Battery"
+	category "Turrets"
+	cost 19000000
+	thumbnail "outfit/10 77"
+	series "Caliber Turrets: Navarchs"
+	index 1100
+	"mass" 268
+	"outfit space" -268
+	"weapon capacity" -268
+	"turret mounts" -1
+	weapon
+		sound "detainer"
+		"hardpoint sprite" "hardpoint/10 77"
+		"fire effect" "small explosion" 3
+		"fire effect" "smoke" 16
+		"hardpoint offset" 56
+		"turret turn" 0.5
+		"inaccuracy" .1
+		"velocity" 35
+		"lifetime" 1
+		"reload" 300
+		"submunition" "141-103 Shell"
+			"offset" 4 0
+		"submunition" "141-103 Shell"
+			"offset" -4 0
+		"firing energy" 14200
+		"firing force" 3800
+		"firing heat" 32800
+		"blast radius" 110
+		"safe"
+		"cluster"
+	description "For their super battleships, the Navarchs designed this huge-bore turret. Though the reload time leaves much to be desired, the huge shots deliver crushing damage over a broad area; each shell could level a medium-sized human warship."
+
+outfit "141-103 Shell"
+	weapon
+		sprite "projectile/detainer"
+			"frame rate" 2.5
+		"hit effect" "detainer impact" 4
+		"hit effect" "detainer smoke" 9
+		"hit effect" "huge explosion"
+		"target effect" "small explosion"
+		"live effect" "detainer sparks" 100
+		"inaccuracy" .2
+		"lifetime" 164.2857142857
+		"shield damage" 10900
+		"hull damage" 9900
+		"hit force" 2000
+		"blast radius" 110
+		"safe"
+	
+
+outfit "100-77 Twin Battery"
+	category "Turrets"
+	cost 10000000
+	thumbnail "outfit/10 77"
+	series "Caliber Turrets: Navarchs"
+	index 1000
+	"mass" 182
+	"outfit space" -182
+	"weapon capacity" -182
+	"turret mounts" -1
+	weapon
+		sound "detainer"
+		"hardpoint sprite" "hardpoint/10 77"
+		"fire effect" "small explosion" 2
+		"fire effect" "smoke" 10
+		"hardpoint offset" 54
+		"turret turn" 0.8
+		"inaccuracy" .2
+		"velocity" 40
+		"lifetime" 1
+		"reload" 180
+		"submunition" "100-77 Shell"
+			"offset" 4 0
+		"submunition" "100-77 Shell"
+			"offset" -4 0
+		"firing energy" 6200
+		"firing force" 2400
+		"firing heat" 14400
+		"blast radius" 80
+		"safe"
+		"cluster"
+	description "This is the primary weapon for the Navarchs' large battleships: a twin-barreled, wide-bore cannon that's slow to aim and fire but deals impeccable damage once it connects. The significant firing forces produced by the weapon require a special armored hardpoint (a barbette) to be installed."
+
+outfit "100-77 Shell"
+	weapon
+		sprite "projectile/detainer"
+			"frame rate" 2.5
+		"hit effect" "detainer impact" 3
+		"hit effect" "detainer smoke" 5
+		"hit effect" "large explosion"
+		"live effect" "detainer sparks" 70
+		"inaccuracy" .2
+		"lifetime" 106.25
+		"shield damage" 4700
+		"hull damage" 4000
+		"hit force" 1200
+		"blast radius" 80
+		"safe"
+		
+outfit "70-62 Twin Battery"
+	category "Turrets"
+	cost 7000000
+	thumbnail "outfit/10 77"
+	series "Caliber Turrets: Navarchs"
+	index 800
+	"mass" 124
+	"outfit space" -124
+	"weapon capacity" -124
+	"turret mounts" -1
+	weapon
+		sound "detainer"
+		"hardpoint sprite" "hardpoint/10 77"
+		"hardpoint offset" 50
+		"turret turn" 1.0
+		"inaccuracy" .2
+		"velocity" 50
+		"lifetime" 1
+		"reload" 120
+		"submunition" "70-62 Shell"
+			"offset" 4 0
+		"submunition" "70-62 Shell"
+			"offset" -4 0
+		"firing energy" 3200
+		"firing force" 1400
+		"firing heat" 6600
+		"hit force" 800
+		"blast radius" 55
+		"safe"
+		"cluster"
+	description "This weapon is a far smaller caliber than its bigger brother, but has a longer relative barrel length to compensate, allowing its projectiles to fly similar distances despite their lighter payload. Despite the major downsizing, this turret still produces enough force when firing to require a barbette."
+	
+outfit "70-62 Twin Cannon"
+	category "Guns"
+	cost 7000000
+	thumbnail "outfit/10 77"
+	"mass" 64
+	"outfit space" -64
+	"weapon capacity" -64
+	"gun ports" -1
+	weapon
+		sound "detainer"
+		"inaccuracy" .2
+		"velocity" 50
+		"lifetime" 1
+		"reload" 120
+		"submunition" "70-62 Shell"
+			"offset" 4 0
+		"submunition" "70-62 Shell"
+			"offset" -4 0
+		"firing energy" 3200
+		"firing force" 1400
+		"firing heat" 6600
+		"hit force" 800
+		"blast radius" 55
+		"safe"
+		"cluster"
+	description "This weapon is a far smaller caliber than its bigger brother, but has a longer relative barrel length to compensate, allowing its projectiles to fly similar distances despite their lighter payload. Despite the major downsizing, this turret still produces enough force when firing to require a barbette."
+
+outfit "70-62 Shell"
+	weapon
+		sprite "projectile/detainer"
+			"frame rate" 2.5
+		"hit effect" "detainer impact" 2
+		"hit effect" "detainer smoke" 3
+		"hit effect" "medium explosion"
+		"live effect" "detainer sparks" 40
+		"inaccuracy" .3
+		"lifetime" 75
+		"shield damage" 2350
+		"hull damage" 1750
+		"blast radius" 80
+		"safe"
+
+outfit "Shock Blaster Alpha"
+	category "Turrets"
+	cost 8500000
+	thumbnail "outfit/shock blaster delta"
+	series "Shock Blasters: Navarchs"
+	index 800
+	"mass" 105
+	"outfit space" -105
+	"weapon capacity" -105
+	"turret mounts" -1
+	weapon
+		sound "proton"
+		"hardpoint sprite" "hardpoint/shock blaster delta"
+		"hardpoint offset" -28
+		"turret turn" 1.4
+		"inaccuracy" .1
+		"velocity" 30
+		"lifetime" 1
+		"reload" 2.5
+		"burst count" 4
+		"burst reload" 2
+		"submunition" "Shock Blaster Bolt"
+			"offset" 2 0
+			"facing" 3
+		"submunition" "Shock Blaster Bolt"
+			"offset" 0 -1
+		"submunition" "Shock Blaster Bolt"
+			"offset" -2 0
+			"facing" -3
+		"firing energy" 78
+		"firing heat" 56
+		"cluster"
+	description "Shock Blasters were designed as a method of building turrets that could provide effective damage at range without needing a barbette. The Shock Blaster Delta is the largest design that was successful in its goal: A rapid-fire, anti-area blaster that drains the electrical energy of struck ships, able to be mounted on any ship with the capacities to support it and capable of long-distance operations."
+
+outfit "Shock Blaster Bolt"
+	weapon
+		sprite "projectile/shock blast"
+			"frame rate" 2.5
+			"random start frame"
+		"hit effect" "emp spark"
+		"inaccuracy" 1.5
+		"random velocity" 2
+		"lifetime" 60
+		"random lifetime" 5
+		"shield damage" 28
+		"hull damage" 8
+		"ion damage" .5
+		"hit force" 2
+
+
+outfit "Monolithic Anti-Missile2"
+	category "Turrets"
+	cost 8000000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 240
+	"outfit space" -240
+	"weapon capacity" -240
+	"turret mounts" -1
+	series "Anti-Missile: Navarchs"
+	index 300
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		"hit effect" "monolithic anti-missile"
+		"anti-missile" 150
+		"velocity" 800
+		"lifetime" 1
+		"reload" 0
+		"firing energy" 45
+		"firing heat" 35
+	description "This Anti-Missile system is specially designed for carriers or other ships with few hardpoints, but otherwise large capacity for weapons. Though the Formidable Anti-Missile offers more balanced performance, the Monolithic model has supreme range, allowing it to cast a wide net of defense over an allied fleet."
+
+effect "monolithic anti-missile"
+	sprite "effect/monolithic anti missile"
+		"no repeat"
+		"frame rate" 2
+	sound "heavy anti-missile"
+	"lifetime" 41
+	"velocity scale" 1
+	
+
+outfit "Phase Torpedo2"
+	category "Guns"
+	cost 5000000
+	thumbnail "outfit/phase torpedo"
+	"mass" 86
+	"outfit space" -86
+	"weapon capacity" -86
+	"gun ports" -1
+	weapon
+		sprite "projectile/phasetorp"
+			"frame rate" 3
+			"random start frame"
+		sound "seeker"
+		"hit effect" "seeker impact" 3
+		"hit effect" "small explosion"
+		"die effect" "seeker impact"
+		"inaccuracy" 2
+		"velocity" 12
+		"lifetime" 300
+		"reload" 66
+		"burst count" 3
+		"burst reload" 6
+		"firing energy" 1000
+		"firing heat" 2200
+		"acceleration" 4
+		"drag" 0.33
+		"turn" 0.5
+		"homing" .5
+		"tracking" .6
+		"shield damage" 1290
+		"hull damage" 1120
+		"hit force" 86
+		"missile strength" 96
+		"cluster"
+	description "Named for their ability to move through space, air, or water, these heavy torpedoes consume massive amounts of energy and move slowly, but inflict devastating damage on hit, to the point where no shield can prevent at least some hull damage from leaking through."
+
+
+outfit "Unbound Gauss Slug2"
+	category "Ammunition"
+	cost 300000
+	thumbnail "outfit/railslug"
+	"mass" 0
+	"unbound slug capacity1" -1
+	description "This three-ton hunk of yottrite alloy is ammunition for the Unbound Gauss Drive. The acceleration the slugs experience is intense enough to distend the slug over the course of firing, but the result is an unstoppable column of destruction that cuts through all in its path."
+
+outfit "Unbound Gauss Drive2"
+	category "Secondary Weapons"
+	cost 75000000
+	thumbnail "outfit/10 77"
+	"mass" 466
+	"outfit space" -496
+	"weapon capacity" -496
+	"cargo space" -150
+	"gun ports" -1
+	"spinal mount" -1
+	"unbound slug capacity1" 6000000
+	weapon
+		sprite ""
+		sound "dragonflame"
+		icon "icon/dragonflame"
+		"fire effect" "unbound gauss"
+		"inaccuracy" 0.02
+		"velocity override" 3000
+		"range override" 6000
+		"velocity" 1
+		"lifetime" 1
+		"reload" 900
+		"firing energy" 70000
+		"firing force" 10000
+		"firing heat" 120000
+		"blast radius" 75
+		"stream"
+		"safe"
+		"ammo" "Unbound Gauss Slug2"
+		"shield damage" -955000
+		"hull damage" -1540000
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -75
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -150
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -225
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -300
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -375
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -450
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -525
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -600
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -675
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -750
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -825
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -900
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -975
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -1050
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -1125
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -1200
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -1275
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -1350
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -1425
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -1500
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -1575
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -1650
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -1725
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -1800
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -1875
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -1950
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -2025
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -2100
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -2175
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -2250
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -2325
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -2400
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -2475
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -2550
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -2625
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -2700
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -2775
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -2850
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -2925
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -3000
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -3075
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -3150
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -3225
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -3300
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -3375
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -3450
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -3525
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -3600
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -3675
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -3750
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -3825
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -3900
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -3975
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -4050
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -4125
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -4200
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -4275
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -4350
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -4425
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -4500
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -4575
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -4650
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -4725
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -4800
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -4875
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -4950
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -5025
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -5100
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -5175
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -5250
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -5325
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -5400
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -5475
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -5550
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -5625
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -5700
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -5775
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -5850
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -5925
+		"submunition" "Unbound Gauss Projectile"
+			"offset" 0 -6000
+	description `The earliest phases of this weapon's development harken back to before the Navarchs even first came into contact with the Quarg; an early attempt at using energy to replace the fuel in a Hyperdrive's operation, allowing a planet to theoretically launch fighters without any need for deuterium or worry of fallout from the fusion explosion that powers a Hyperdrive. The device failed, and was shelved for millenia.`
+	description `	Relatively recently, however, some attention was brought back to the device, with the hopes that it could be turned into an effective weapon against swarms of Quarg Automata. The resultant weapon fires enormous yottrite-alloy slugs at near-light speed, causing an explosive effect on target and effortlessly cutting through all in its way.`
+	description `	(Note: The amount of contact per shot can vary with enemy size, so damage per second is approximate.)`
+
+outfit "Unbound Gauss Projectile"
+	weapon
+		sprite ""
+		"target effect" "small explosion" 1
+		"target effect" "tiny explosion" 4
+		"lifetime" 2
+		"trigger radius" 100
+		"blast radius" 75
+		"shield damage" 12500
+		"hull damage" 20000
+		"piercing" .55
+		"hit force" 150
+		"safe"
+
+effect "unbound gauss"
+	sprite "effect/unbound gauss"
+		"no repeat"
+		"scale" 2
+		"frame rate" 9
+	"lifetime" 28
+	"velocity scale" 1
