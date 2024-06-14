@@ -13,6 +13,7 @@ category "ship"
 	"pocket frigate"
 	"pocket battlecruiser"
 	"pocket titan"
+	"Automated Heavy Warship"
 
 category "bay type"
 	"Battleship"

@@ -60,6 +60,7 @@ shipyard "Basic Ships"
 	"Void fast Battleship"
 	"Void A-F Battleship"
 	"Void Raider Heavy Destroyer"
+	"Typ015-A Guangzhou"
 
 outfitter "Common Outfits"
 	"Ichra-05 L-Railgun Turret"
